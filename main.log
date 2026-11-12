@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.14)  11 NOV 2026 18:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.14)  11 NOV 2026 19:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -461,33 +461,33 @@ File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for mTT/cmtt/m/n on input line 36.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for mTT/cmtt/m/n on input line 39.
 LaTeX Font Info:    Trying to load font information for mTT+cmtt on input line 
-36.
+39.
 
 (C:\Users\GianlucaCusatis\AppData\Local\Programs\MiKTeX\tex/latex/mdwtools\mttc
 mtt.fd
 File: mTTcmtt.fd 1996/05/25 1.1 Handing of the cmtt font
 )
-LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    ... okay on input line 39.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -523,7 +523,7 @@ LaTeX Font Info:    ... okay on input line 36.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 36.
+Package hyperref Info: Link coloring OFF on input line 39.
 (main.out) (main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
@@ -565,12 +565,12 @@ LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10.95> not available
 \openout4 = `main.toc'.
 
  [4] [5]
-Overfull \hbox (5.97084pt too wide) in paragraph at lines 68--68
+Overfull \hbox (5.97084pt too wide) in paragraph at lines 71--71
 []|\OT1/cmr/bx/n/9 Country| 
  []
 
 
-Overfull \hbox (5.97084pt too wide) in paragraph at lines 77--77
+Overfull \hbox (5.97084pt too wide) in paragraph at lines 80--80
 []|\OT1/cmr/bx/n/9 Country| 
  []
 
@@ -578,26 +578,20 @@ Overfull \hbox (5.97084pt too wide) in paragraph at lines 77--77
 <./figs/database_hierarchy.png, id=545, 892.425pt x 497.568pt>
 File: ./figs/database_hierarchy.png Graphic file (type png)
 <use ./figs/database_hierarchy.png>
-Package pdftex.def Info: ./figs/database_hierarchy.png  used on input line 152.
+Package pdftex.def Info: ./figs/database_hierarchy.png  used on input line 155.
 
 (pdftex.def)             Requested size: 422.77664pt x 235.71709pt.
  [8 <./figs/database_hierarchy.png>] [9]
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 211--217
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 214--220
 [] 
  []
 
 [10] [11] [12] [13] [14]
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 421--428
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 424--431
 []
  []
 
 [15]
-Underfull \hbox (badness 1057) in paragraph at lines 507--508
-[]|[]\OT1/cmr/m/n/10.95 Conditionally re-quired[] if re-in-force-ment ma-te-ri-
-als are
- []
-
-
 Underfull \hbox (badness 1057) in paragraph at lines 510--511
 []|[]\OT1/cmr/m/n/10.95 Conditionally re-quired[] if re-in-force-ment ma-te-ri-
 als are
@@ -610,662 +604,668 @@ als are
  []
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 519--520
+Underfull \hbox (badness 1057) in paragraph at lines 516--517
+[]|[]\OT1/cmr/m/n/10.95 Conditionally re-quired[] if re-in-force-ment ma-te-ri-
+als are
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 522--523
 \OT1/cmr/m/n/10.95 sup-ports, fix-tures, ac-tu-a-tors, sen-sors, or boundary-
  []
 
 [16] [17]
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 578.
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 581.
 
-Underfull \hbox (badness 2486) in paragraph at lines 623--624
+Underfull \hbox (badness 2486) in paragraph at lines 626--627
 []|\OT1/cmr/m/n/10.95 Institution as-so-ci-ated with a re-port, the-sis,
  []
 
 [18]
-Overfull \hbox (4.37257pt too wide) in paragraph at lines 665--665
+Overfull \hbox (4.37257pt too wide) in paragraph at lines 668--668
 []|\OT1/cmr/bx/n/10 Req.| 
  []
 
 
-Overfull \hbox (4.37257pt too wide) in paragraph at lines 669--669
+Overfull \hbox (4.37257pt too wide) in paragraph at lines 672--672
 []|\OT1/cmr/bx/n/10 Req.| 
  []
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 673--674
+Underfull \hbox (badness 1052) in paragraph at lines 676--677
 []|\OT1/cmr/m/n/10 Unique iden-ti-fier for the ma-te-rial
  []
 
 
-Underfull \hbox (badness 4229) in paragraph at lines 677--678
+Underfull \hbox (badness 4229) in paragraph at lines 680--681
 []|\OT1/cmr/m/n/10 Text file de-scrib-ing the mix-ing,
  []
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 683--684
+Underfull \hbox (badness 1509) in paragraph at lines 686--687
 []|\OT1/cmr/m/n/10 Cement clas-si-fi-ca-tion, des-ig-na-tion,
  []
 
 
-Overfull \hbox (0.7465pt too wide) in paragraph at lines 719--719
+Overfull \hbox (0.7465pt too wide) in paragraph at lines 722--722
 []|\OT1/cmr/m/n/10 ml/m$[]$| 
  []
 
 
-Underfull \hbox (badness 1173) in paragraph at lines 721--722
+Underfull \hbox (badness 1173) in paragraph at lines 724--725
 []|\OT1/cmr/m/n/10 Air en-train-ing ad-mix-ture type or
  []
 
 
-Overfull \hbox (0.7465pt too wide) in paragraph at lines 723--723
+Overfull \hbox (0.7465pt too wide) in paragraph at lines 726--726
 []|\OT1/cmr/m/n/10 ml/m$[]$| 
  []
 
 
-Overfull \hbox (0.7465pt too wide) in paragraph at lines 731--731
+Overfull \hbox (0.7465pt too wide) in paragraph at lines 734--734
 []|\OT1/cmr/m/n/10 ml/m$[]$| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 737--737
+Underfull \hbox (badness 10000) in paragraph at lines 740--740
 []|\OT1/cmr/m/n/10 none
  []
 
 
-Underfull \hbox (badness 1874) in paragraph at lines 747--748
+Underfull \hbox (badness 1874) in paragraph at lines 750--751
 []|\OT1/cmr/m/n/10 Additional in-for-ma-tion about the
  []
 
 [19] [20]
-Overfull \hbox (1.87056pt too wide) in paragraph at lines 763--763
+Overfull \hbox (1.87056pt too wide) in paragraph at lines 766--766
 []|\OT1/cmr/bx/n/10.95 Req.| 
  []
 
 
-Overfull \hbox (1.87056pt too wide) in paragraph at lines 772--772
+Overfull \hbox (1.87056pt too wide) in paragraph at lines 775--775
 []|\OT1/cmr/bx/n/10.95 Req.| 
  []
 
 
-Overfull \hbox (6.3724pt too wide) in paragraph at lines 791--791
+Overfull \hbox (6.3724pt too wide) in paragraph at lines 794--794
 []|\OT1/cmtt/m/n/10.95 reinforcement[]material[]type| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 799--799
+Underfull \hbox (badness 10000) in paragraph at lines 802--802
 []|\OT1/cmr/m/n/10.95 File
  []
 
 
-Overfull \hbox (1.07837pt too wide) in paragraph at lines 805--805
+Overfull \hbox (1.07837pt too wide) in paragraph at lines 808--808
 []|\OT1/cmr/m/n/10.95 Number| 
  []
 
 
-Overfull \hbox (1.07837pt too wide) in paragraph at lines 811--811
+Overfull \hbox (1.07837pt too wide) in paragraph at lines 814--814
 []|\OT1/cmr/m/n/10.95 Number| 
  []
 
 
-Overfull \hbox (1.07837pt too wide) in paragraph at lines 817--817
+Overfull \hbox (1.07837pt too wide) in paragraph at lines 820--820
 []|\OT1/cmr/m/n/10.95 Number| 
  []
 
 
-Overfull \hbox (1.07837pt too wide) in paragraph at lines 823--823
+Overfull \hbox (1.07837pt too wide) in paragraph at lines 826--826
 []|\OT1/cmr/m/n/10.95 Number| 
  []
 
 
-Underfull \hbox (badness 2435) in paragraph at lines 831--832
+Underfull \hbox (badness 2435) in paragraph at lines 834--835
 []|\OT1/cmr/m/n/10.95 Additional re-in-force-ment in-for-
  []
 
 [21]
-Overfull \hbox (1.87056pt too wide) in paragraph at lines 887--887
+Overfull \hbox (1.87056pt too wide) in paragraph at lines 890--890
 []|\OT1/cmr/bx/n/10.95 Req.|  
  []
 
 
-Overfull \hbox (1.87056pt too wide) in paragraph at lines 896--896
+Overfull \hbox (1.87056pt too wide) in paragraph at lines 899--899
 []|\OT1/cmr/bx/n/10.95 Req.|  
  []
 
 [22] [23]
-Overfull \hbox (1.87056pt too wide) in paragraph at lines 1003--1003
+Overfull \hbox (1.87056pt too wide) in paragraph at lines 1006--1006
 []|\OT1/cmr/bx/n/10.95 Req.|  
  []
 
 
-Overfull \hbox (1.87056pt too wide) in paragraph at lines 1012--1012
+Overfull \hbox (1.87056pt too wide) in paragraph at lines 1015--1015
 []|\OT1/cmr/bx/n/10.95 Req.|  
  []
 
 
-Overfull \hbox (2.23335pt too wide) in paragraph at lines 1025--1025
+Overfull \hbox (2.23335pt too wide) in paragraph at lines 1028--1028
 []|\OT1/cmtt/m/n/10.95 longitudinal[]reinforcement|  
  []
 
 
-Underfull \hbox (badness 1082) in paragraph at lines 1052--1053
+Underfull \hbox (badness 1082) in paragraph at lines 1055--1056
 \OT1/cmr/m/n/10.95 bar layer, stir-rup set, or ex-ter-nal re-in-force-ment sys-
 tem, and is uniquely iden-ti-fied by a
  []
 
 [24]
-Overfull \hbox (1.87056pt too wide) in paragraph at lines 1065--1065
+Overfull \hbox (1.87056pt too wide) in paragraph at lines 1068--1068
 []|\OT1/cmr/bx/n/10.95 Req.| 
  []
 
 
-Overfull \hbox (1.87056pt too wide) in paragraph at lines 1074--1074
+Overfull \hbox (1.87056pt too wide) in paragraph at lines 1077--1077
 []|\OT1/cmr/bx/n/10.95 Req.| 
  []
 
 
-Overfull \hbox (0.62372pt too wide) in paragraph at lines 1084--1084
+Overfull \hbox (0.62372pt too wide) in paragraph at lines 1087--1087
 []|\OT1/cmtt/m/n/10.95 reinforcement[]component[]id| 
  []
 
 
-Underfull \hbox (badness 1337) in paragraph at lines 1100--1101
+Underfull \hbox (badness 1337) in paragraph at lines 1103--1104
 []|\OT1/cmr/m/n/10.95 Associated re-in-force-ment ma-te-
  []
 
 
-Underfull \hbox (badness 2435) in paragraph at lines 1112--1113
+Underfull \hbox (badness 2435) in paragraph at lines 1115--1116
 []|\OT1/cmr/m/n/10.95 Additional re-in-force-ment in-for-
  []
 
 
-Underfull \hbox (badness 1314) in paragraph at lines 1136--1137
+Underfull \hbox (badness 1314) in paragraph at lines 1139--1140
 []|\OT1/cmr/m/n/10.95 Number of re-in-force-ment bars,
  []
 
 
-Overfull \hbox (1.07837pt too wide) in paragraph at lines 1146--1146
+Overfull \hbox (1.07837pt too wide) in paragraph at lines 1149--1149
 []|\OT1/cmr/m/n/10.95 Number| 
  []
 
 
-Overfull \hbox (1.07837pt too wide) in paragraph at lines 1152--1152
+Overfull \hbox (1.07837pt too wide) in paragraph at lines 1155--1155
 []|\OT1/cmr/m/n/10.95 Number| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1154--1155
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1158
 []|\OT1/cmr/m/n/10.95 Nominal re-in-force-ment cross-
  []
 
 
-Underfull \hbox (badness 2418) in paragraph at lines 1154--1155
+Underfull \hbox (badness 2418) in paragraph at lines 1157--1158
 \OT1/cmr/m/n/10.95 if a stan-dard bar des-ig-na-tion
  []
 
 
-Underfull \hbox (badness 1189) in paragraph at lines 1154--1155
+Underfull \hbox (badness 1189) in paragraph at lines 1157--1158
 \OT1/cmr/m/n/10.95 is se-lected. It re-quires in-put
  []
 
 
-Underfull \hbox (badness 3428) in paragraph at lines 1154--1155
+Underfull \hbox (badness 3428) in paragraph at lines 1157--1158
 \OT1/cmr/m/n/10.95 if ``other'' is se-lected in bar
  []
 
 
-Overfull \hbox (1.07837pt too wide) in paragraph at lines 1158--1158
+Overfull \hbox (1.07837pt too wide) in paragraph at lines 1161--1161
 []|\OT1/cmr/m/n/10.95 Number| 
  []
 
 
-Overfull \hbox (1.07837pt too wide) in paragraph at lines 1164--1164
+Overfull \hbox (1.07837pt too wide) in paragraph at lines 1167--1167
 []|\OT1/cmr/m/n/10.95 Number| 
  []
 
 
-Overfull \hbox (1.07837pt too wide) in paragraph at lines 1170--1170
+Overfull \hbox (1.07837pt too wide) in paragraph at lines 1173--1173
 []|\OT1/cmr/m/n/10.95 Number| 
  []
 
 
-Overfull \hbox (1.07837pt too wide) in paragraph at lines 1176--1176
+Overfull \hbox (1.07837pt too wide) in paragraph at lines 1179--1179
 []|\OT1/cmr/m/n/10.95 Number| 
  []
 
 
-Overfull \hbox (1.07837pt too wide) in paragraph at lines 1182--1182
+Overfull \hbox (1.07837pt too wide) in paragraph at lines 1185--1185
 []|\OT1/cmr/m/n/10.95 Number| 
  []
 
 
-Overfull \hbox (1.07837pt too wide) in paragraph at lines 1188--1188
+Overfull \hbox (1.07837pt too wide) in paragraph at lines 1191--1191
 []|\OT1/cmr/m/n/10.95 Number| 
  []
 
 
-Overfull \hbox (4.76277pt too wide) in paragraph at lines 1196--1196
+Overfull \hbox (4.76277pt too wide) in paragraph at lines 1199--1199
 []|\OT1/cmtt/m/n/10.95 reinforcement[]centroid[]x[]mm| 
  []
 
 
-Overfull \hbox (1.07837pt too wide) in paragraph at lines 1198--1198
+Overfull \hbox (1.07837pt too wide) in paragraph at lines 1201--1201
 []|\OT1/cmr/m/n/10.95 Number| 
  []
 
 
-Overfull \hbox (4.76277pt too wide) in paragraph at lines 1202--1202
+Overfull \hbox (4.76277pt too wide) in paragraph at lines 1205--1205
 []|\OT1/cmtt/m/n/10.95 reinforcement[]centroid[]y[]mm| 
  []
 
 
-Overfull \hbox (1.07837pt too wide) in paragraph at lines 1204--1204
+Overfull \hbox (1.07837pt too wide) in paragraph at lines 1207--1207
 []|\OT1/cmr/m/n/10.95 Number| 
  []
 
 
-Overfull \hbox (4.76277pt too wide) in paragraph at lines 1208--1208
+Overfull \hbox (4.76277pt too wide) in paragraph at lines 1211--1211
 []|\OT1/cmtt/m/n/10.95 reinforcement[]centroid[]z[]mm| 
  []
 
 
-Overfull \hbox (1.07837pt too wide) in paragraph at lines 1210--1210
+Overfull \hbox (1.07837pt too wide) in paragraph at lines 1213--1213
 []|\OT1/cmr/m/n/10.95 Number| 
  []
 
 
-Overfull \hbox (1.07837pt too wide) in paragraph at lines 1216--1216
+Overfull \hbox (1.07837pt too wide) in paragraph at lines 1219--1219
 []|\OT1/cmr/m/n/10.95 Number| 
  []
 
 
-Overfull \hbox (1.07837pt too wide) in paragraph at lines 1222--1222
+Overfull \hbox (1.07837pt too wide) in paragraph at lines 1225--1225
 []|\OT1/cmr/m/n/10.95 Number| 
  []
 
 
-Overfull \hbox (0.62372pt too wide) in paragraph at lines 1226--1226
+Overfull \hbox (0.62372pt too wide) in paragraph at lines 1229--1229
 []|\OT1/cmtt/m/n/10.95 reinforcement[]thickness[]mm| 
  []
 
 
-Overfull \hbox (1.07837pt too wide) in paragraph at lines 1228--1228
+Overfull \hbox (1.07837pt too wide) in paragraph at lines 1231--1231
 []|\OT1/cmr/m/n/10.95 Number| 
  []
 
 
-Overfull \hbox (1.07837pt too wide) in paragraph at lines 1234--1234
+Overfull \hbox (1.07837pt too wide) in paragraph at lines 1237--1237
 []|\OT1/cmr/m/n/10.95 Number| 
  []
 
 
-Underfull \hbox (badness 3460) in paragraph at lines 1242--1243
+Underfull \hbox (badness 3460) in paragraph at lines 1245--1246
 []|\OT1/cmr/m/n/10.95 Adhesive or bond-ing ma-te-rial
  []
 
 
-Overfull \hbox (1.07837pt too wide) in paragraph at lines 1246--1246
+Overfull \hbox (1.07837pt too wide) in paragraph at lines 1249--1249
 []|\OT1/cmr/m/n/10.95 Number| 
  []
 
 
-Overfull \hbox (1.07837pt too wide) in paragraph at lines 1252--1252
+Overfull \hbox (1.07837pt too wide) in paragraph at lines 1255--1255
 []|\OT1/cmr/m/n/10.95 Number| 
  []
 
 
-Overfull \hbox (1.07837pt too wide) in paragraph at lines 1258--1258
+Overfull \hbox (1.07837pt too wide) in paragraph at lines 1261--1261
 []|\OT1/cmr/m/n/10.95 Number| 
  []
 
 
-Overfull \hbox (1.07837pt too wide) in paragraph at lines 1264--1264
+Overfull \hbox (1.07837pt too wide) in paragraph at lines 1267--1267
 []|\OT1/cmr/m/n/10.95 Number| 
  []
 
 
-Overfull \hbox (1.07837pt too wide) in paragraph at lines 1282--1282
+Overfull \hbox (1.07837pt too wide) in paragraph at lines 1285--1285
 []|\OT1/cmr/m/n/10.95 Number| 
  []
 
 
-Overfull \hbox (1.07837pt too wide) in paragraph at lines 1288--1288
+Overfull \hbox (1.07837pt too wide) in paragraph at lines 1291--1291
 []|\OT1/cmr/m/n/10.95 Number| 
  []
 
 
-Overfull \hbox (1.07837pt too wide) in paragraph at lines 1294--1294
+Overfull \hbox (1.07837pt too wide) in paragraph at lines 1297--1297
 []|\OT1/cmr/m/n/10.95 Number| 
  []
 
 
-Overfull \hbox (1.07837pt too wide) in paragraph at lines 1300--1300
+Overfull \hbox (1.07837pt too wide) in paragraph at lines 1303--1303
 []|\OT1/cmr/m/n/10.95 Number| 
  []
 
 
-Overfull \hbox (1.07837pt too wide) in paragraph at lines 1306--1306
+Overfull \hbox (1.07837pt too wide) in paragraph at lines 1309--1309
 []|\OT1/cmr/m/n/10.95 Number| 
  []
 
 
-Overfull \hbox (1.07837pt too wide) in paragraph at lines 1312--1312
+Overfull \hbox (1.07837pt too wide) in paragraph at lines 1315--1315
 []|\OT1/cmr/m/n/10.95 Number| 
  []
 
 
-Overfull \hbox (1.07837pt too wide) in paragraph at lines 1318--1318
+Overfull \hbox (1.07837pt too wide) in paragraph at lines 1321--1321
 []|\OT1/cmr/m/n/10.95 Number| 
  []
 
 [25] [26]
-Overfull \hbox (1.87056pt too wide) in paragraph at lines 1345--1345
+Overfull \hbox (1.87056pt too wide) in paragraph at lines 1348--1348
 []|\OT1/cmr/bx/n/10.95 Req.|  
  []
 
 
-Overfull \hbox (1.87056pt too wide) in paragraph at lines 1354--1354
+Overfull \hbox (1.87056pt too wide) in paragraph at lines 1357--1357
 []|\OT1/cmr/bx/n/10.95 Req.|  
  []
 
 [27]
-Overfull \hbox (3.94954pt too wide) in paragraph at lines 1405--1405
+Overfull \hbox (3.94954pt too wide) in paragraph at lines 1408--1408
  []|\OT1/cmr/bx/n/10 Units| 
  []
 
 
-Overfull \hbox (3.94954pt too wide) in paragraph at lines 1414--1414
+Overfull \hbox (3.94954pt too wide) in paragraph at lines 1417--1417
  []|\OT1/cmr/bx/n/10 Units| 
  []
 
 
-Overfull \hbox (9.49907pt too wide) in paragraph at lines 1451--1451
+Overfull \hbox (9.49907pt too wide) in paragraph at lines 1454--1454
 []|\OT1/cmtt/m/n/10 env[]relative[]humidity[]history[]file[]name|  
  []
 
 [28] [29] [30]
-Underfull \hbox (badness 5924) in paragraph at lines 1562--1566
+Underfull \hbox (badness 5924) in paragraph at lines 1565--1569
 []\OT1/cmr/m/n/10.95 Each de-vice or sup-port en-try ref-er-ences the cor-re-sp
 ond-ing \OT1/cmtt/m/n/10.95 source[]id\OT1/cmr/m/n/10.95 , \OT1/cmtt/m/n/10.95 
 batch[]id\OT1/cmr/m/n/10.95 ,
  []
 
 
-Overfull \hbox (1.87056pt too wide) in paragraph at lines 1570--1570
+Overfull \hbox (1.87056pt too wide) in paragraph at lines 1573--1573
 []|\OT1/cmr/bx/n/10.95 Req.| 
  []
 
 
-Overfull \hbox (1.87056pt too wide) in paragraph at lines 1579--1579
+Overfull \hbox (1.87056pt too wide) in paragraph at lines 1582--1582
 []|\OT1/cmr/bx/n/10.95 Req.| 
  []
 
 
-Underfull \hbox (badness 2384) in paragraph at lines 1609--1612
+Underfull \hbox (badness 2384) in paragraph at lines 1612--1615
 []|\OT1/cmr/m/n/10.95 Type of de-vice, sup-port, fix-
  []
 
 
-Overfull \hbox (1.07837pt too wide) in paragraph at lines 1615--1615
+Overfull \hbox (1.07837pt too wide) in paragraph at lines 1618--1618
 []|\OT1/cmr/m/n/10.95 Number| 
  []
 
 
-Overfull \hbox (1.07837pt too wide) in paragraph at lines 1621--1621
+Overfull \hbox (1.07837pt too wide) in paragraph at lines 1624--1624
 []|\OT1/cmr/m/n/10.95 Number| 
  []
 
 
-Overfull \hbox (1.07837pt too wide) in paragraph at lines 1627--1627
+Overfull \hbox (1.07837pt too wide) in paragraph at lines 1630--1630
 []|\OT1/cmr/m/n/10.95 Number| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1639--1639
+Underfull \hbox (badness 10000) in paragraph at lines 1642--1642
 []|\OT1/cmr/m/n/10.95 File
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 1641--1643
+Underfull \hbox (badness 5316) in paragraph at lines 1644--1646
 []|\OT1/cmr/m/n/10.95 CSV file in-clud-ing parametrs
  []
 
 
-Underfull \hbox (badness 7081) in paragraph at lines 1641--1643
+Underfull \hbox (badness 7081) in paragraph at lines 1644--1646
 \OT1/cmr/m/n/10.95 See \OT1/cmtt/m/n/10.95 devices[]and[]supports \OT1/cmr/m/n/
 10.95 li-
  []
 
 [31]
-Overfull \hbox (1.87056pt too wide) in paragraph at lines 1690--1690
+Overfull \hbox (1.87056pt too wide) in paragraph at lines 1693--1693
 []|\OT1/cmr/bx/n/10.95 Req.| 
  []
 
 
-Overfull \hbox (1.87056pt too wide) in paragraph at lines 1699--1699
+Overfull \hbox (1.87056pt too wide) in paragraph at lines 1702--1702
 []|\OT1/cmr/bx/n/10.95 Req.| 
  []
 
 
-Underfull \hbox (badness 1783) in paragraph at lines 1734--1736
+Underfull \hbox (badness 1783) in paragraph at lines 1737--1739
 \OT1/cmr/m/n/10.95 ing mode. Ex-am-ples in-clude
  []
 
 
-Underfull \hbox (badness 2293) in paragraph at lines 1734--1736
+Underfull \hbox (badness 2293) in paragraph at lines 1737--1739
 \OT1/cmr/m/n/10.95 re-lax-ation, ther-mal, or hy-gral
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1741--1743
+Underfull \hbox (badness 10000) in paragraph at lines 1744--1746
 []|\OT1/cmr/m/n/10.95 Primary con-trolled quan-tity
  []
 
 
-Underfull \hbox (badness 4072) in paragraph at lines 1741--1743
+Underfull \hbox (badness 4072) in paragraph at lines 1744--1746
 \OT1/cmr/m/n/10.95 defin-ing the load-ing pro-to-col.
  []
 
 
-Overfull \hbox (2.16806pt too wide) in paragraph at lines 1744--1744
+Overfull \hbox (2.16806pt too wide) in paragraph at lines 1747--1747
 []|\OT1/cmtt/m/n/10.95 initial[]control[]variable[]rate| 
  []
 
 
-Overfull \hbox (1.07837pt too wide) in paragraph at lines 1746--1746
+Overfull \hbox (1.07837pt too wide) in paragraph at lines 1749--1749
 []|\OT1/cmr/m/n/10.95 Number| 
  []
 
 
-Underfull \hbox (badness 3439) in paragraph at lines 1748--1749
+Underfull \hbox (badness 3439) in paragraph at lines 1751--1752
 []|\OT1/cmr/m/n/10.95 Initial load-ing rate as-so-ci-ated
  []
 
 
-Overfull \hbox (1.07837pt too wide) in paragraph at lines 1759--1759
+Overfull \hbox (1.07837pt too wide) in paragraph at lines 1762--1762
 []|\OT1/cmr/m/n/10.95 Number| 
  []
 
 
-Overfull \hbox (1.07837pt too wide) in paragraph at lines 1765--1765
+Overfull \hbox (1.07837pt too wide) in paragraph at lines 1768--1768
 []|\OT1/cmr/m/n/10.95 Number| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1771--1771
+Underfull \hbox (badness 10000) in paragraph at lines 1774--1774
 []|\OT1/cmr/m/n/10.95 File
  []
 
 [32] [33]
-Overfull \hbox (1.86125pt too wide) in paragraph at lines 1859--1859
+Overfull \hbox (1.86125pt too wide) in paragraph at lines 1862--1862
 []|\OT1/cmr/bx/n/10.95 Units| 
  []
 
 
-Overfull \hbox (2.41869pt too wide) in alignment at lines 1853--1862
+Overfull \hbox (2.41869pt too wide) in alignment at lines 1856--1865
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (1.86125pt too wide) in paragraph at lines 1868--1868
+Overfull \hbox (1.86125pt too wide) in paragraph at lines 1871--1871
 []|\OT1/cmr/bx/n/10.95 Units| 
  []
 
 
-Overfull \hbox (2.41869pt too wide) in alignment at lines 1862--1871
+Overfull \hbox (2.41869pt too wide) in alignment at lines 1865--1874
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (1.04633pt too wide) in paragraph at lines 1878--1878
+Overfull \hbox (1.04633pt too wide) in paragraph at lines 1881--1881
 []|\OT1/cmr/m/n/10.95 String| 
  []
 
 
-Overfull \hbox (1.04633pt too wide) in paragraph at lines 1884--1884
+Overfull \hbox (1.04633pt too wide) in paragraph at lines 1887--1887
 []|\OT1/cmr/m/n/10.95 String| 
  []
 
 
-Overfull \hbox (1.04633pt too wide) in paragraph at lines 1890--1890
+Overfull \hbox (1.04633pt too wide) in paragraph at lines 1893--1893
 []|\OT1/cmr/m/n/10.95 String| 
  []
 
 
-Overfull \hbox (1.04633pt too wide) in paragraph at lines 1896--1896
+Overfull \hbox (1.04633pt too wide) in paragraph at lines 1899--1899
 []|\OT1/cmr/m/n/10.95 String| 
  []
 
 
-Overfull \hbox (1.32004pt too wide) in paragraph at lines 1916--1916
+Overfull \hbox (1.32004pt too wide) in paragraph at lines 1919--1919
 []|\OT1/cmr/m/n/10.95 Vocab| 
  []
 
 
-Overfull \hbox (1.32004pt too wide) in paragraph at lines 1941--1941
+Overfull \hbox (1.32004pt too wide) in paragraph at lines 1944--1944
 []|\OT1/cmr/m/n/10.95 Vocab| 
  []
 
 
-Overfull \hbox (5.30463pt too wide) in paragraph at lines 1947--1947
+Overfull \hbox (5.30463pt too wide) in paragraph at lines 1950--1950
 []|\OT1/cmr/m/n/10.95 Integer| 
  []
 
 
-Underfull \hbox (badness 2005) in paragraph at lines 1955--1956
+Underfull \hbox (badness 2005) in paragraph at lines 1958--1959
 []|\OT1/cmr/m/n/10.95 Original spec-i-men la-bel or
  []
 
 
-Overfull \hbox (1.04633pt too wide) in paragraph at lines 1963--1963
+Overfull \hbox (1.04633pt too wide) in paragraph at lines 1966--1966
 []|\OT1/cmr/m/n/10.95 String| 
  []
 
 
-Overfull \hbox (1.32004pt too wide) in paragraph at lines 1975--1975
+Overfull \hbox (1.32004pt too wide) in paragraph at lines 1978--1978
 []|\OT1/cmr/m/n/10.95 Vocab| 
  []
 
 
-Overfull \hbox (5.66966pt too wide) in paragraph at lines 1982--1982
+Overfull \hbox (5.66966pt too wide) in paragraph at lines 1985--1985
 []|\OT1/cmr/m/n/10.95 various| 
  []
 
 
-Overfull \hbox (4.82762pt too wide) in paragraph at lines 1985--1985
+Overfull \hbox (4.82762pt too wide) in paragraph at lines 1988--1988
 []|\OT1/cmtt/m/n/10.95 quantity[]reported[]standard[]deviation| 
  []
 
 
-Overfull \hbox (5.66966pt too wide) in paragraph at lines 1988--1988
+Overfull \hbox (5.66966pt too wide) in paragraph at lines 1991--1991
 []|\OT1/cmr/m/n/10.95 various| 
  []
 
 
-Overfull \hbox (5.66966pt too wide) in paragraph at lines 1994--1994
+Overfull \hbox (5.66966pt too wide) in paragraph at lines 1997--1997
 []|\OT1/cmr/m/n/10.95 various| 
  []
 
 
-Overfull \hbox (1.04633pt too wide) in paragraph at lines 2003--2003
+Overfull \hbox (1.04633pt too wide) in paragraph at lines 2006--2006
 []|\OT1/cmr/m/n/10.95 String| 
  []
 
 
-Overfull \hbox (1.04633pt too wide) in paragraph at lines 2009--2009
+Overfull \hbox (1.04633pt too wide) in paragraph at lines 2012--2012
 []|\OT1/cmr/m/n/10.95 String| 
  []
 
 
-Overfull \hbox (1.32004pt too wide) in paragraph at lines 2021--2021
+Overfull \hbox (1.32004pt too wide) in paragraph at lines 2024--2024
 []|\OT1/cmr/m/n/10.95 Vocab| 
  []
 
 
-Overfull \hbox (1.32004pt too wide) in paragraph at lines 2033--2033
+Overfull \hbox (1.32004pt too wide) in paragraph at lines 2036--2036
 []|\OT1/cmr/m/n/10.95 Vocab| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2039--2039
+Underfull \hbox (badness 10000) in paragraph at lines 2042--2042
 []|\OT1/cmr/m/n/10.95 File
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2061--2061
+Underfull \hbox (badness 10000) in paragraph at lines 2064--2064
 []|\OT1/cmr/m/n/10.95 File
  []
 
 
-Overfull \hbox (1.32004pt too wide) in paragraph at lines 2083--2083
+Overfull \hbox (1.32004pt too wide) in paragraph at lines 2086--2086
 []|\OT1/cmr/m/n/10.95 Vocab| 
  []
 
 
-Underfull \hbox (badness 3884) in paragraph at lines 2085--2087
+Underfull \hbox (badness 3884) in paragraph at lines 2088--2090
 \OT1/cmr/m/n/10.95 am-ples in-clude crack pat-
  []
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 2085--2087
+Underfull \hbox (badness 1320) in paragraph at lines 2088--2090
 \OT1/cmr/m/n/10.95 tern, spec-i-men pho-to-graph,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2096--2096
+Underfull \hbox (badness 10000) in paragraph at lines 2099--2099
 []|\OT1/cmr/m/n/10.95 File
  []
 
 
-Overfull \hbox (2.41869pt too wide) in alignment at lines 1871--2102
+Overfull \hbox (2.41869pt too wide) in alignment at lines 1874--2105
  [] [] [] [] [] 
  []
 
 [34] [35] [36] [37] [38] [39]
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 2195.
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 2198.
 
 <./figs/cube.png, id=752, 207.612pt x 163.812pt>
 File: ./figs/cube.png Graphic file (type png)
 <use ./figs/cube.png>
-Package pdftex.def Info: ./figs/cube.png  used on input line 2200.
+Package pdftex.def Info: ./figs/cube.png  used on input line 2203.
 (pdftex.def)             Requested size: 140.92793pt x 111.19571pt.
 <./figs/cylinder.png, id=754, 200.166pt x 215.934pt>
 File: ./figs/cylinder.png Graphic file (type png)
 <use ./figs/cylinder.png>
-Package pdftex.def Info: ./figs/cylinder.png  used on input line 2219.
+Package pdftex.def Info: ./figs/cylinder.png  used on input line 2222.
 (pdftex.def)             Requested size: 140.92793pt x 152.0358pt.
  [40 <./figs/cube.png> <./figs/cylinder.png>]
 <./figs/double_notched_prism.png, id=764, 471.288pt x 296.964pt>
 File: ./figs/double_notched_prism.png Graphic file (type png)
 <use ./figs/double_notched_prism.png>
 Package pdftex.def Info: ./figs/double_notched_prism.png  used on input line 22
-39.
+42.
 (pdftex.def)             Requested size: 281.85587pt x 177.59976pt.
 <./figs/dogbone.png, id=766, 623.274pt x 322.149pt>
 File: ./figs/dogbone.png Graphic file (type png)
 <use ./figs/dogbone.png>
-Package pdftex.def Info: ./figs/dogbone.png  used on input line 2264.
+Package pdftex.def Info: ./figs/dogbone.png  used on input line 2267.
 (pdftex.def)             Requested size: 281.85587pt x 145.68338pt.
 
 
@@ -1275,7 +1275,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <./figs/notched_prism.png, id=774, 472.821pt x 338.136pt>
 File: ./figs/notched_prism.png Graphic file (type png)
 <use ./figs/notched_prism.png>
-Package pdftex.def Info: ./figs/notched_prism.png  used on input line 2288.
+Package pdftex.def Info: ./figs/notched_prism.png  used on input line 2291.
 (pdftex.def)             Requested size: 281.85587pt x 201.56747pt.
 
 
@@ -1285,7 +1285,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <./figs/ell_shape.png, id=783, 349.086pt x 334.851pt>
 File: ./figs/ell_shape.png Graphic file (type png)
 <use ./figs/ell_shape.png>
-Package pdftex.def Info: ./figs/ell_shape.png  used on input line 2313.
+Package pdftex.def Info: ./figs/ell_shape.png  used on input line 2316.
 (pdftex.def)             Requested size: 234.8775pt x 225.29935pt.
 
 
@@ -1294,475 +1294,475 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <./figs/notched_cylinder.png, id=786, 471.288pt x 357.408pt>
 File: ./figs/notched_cylinder.png Graphic file (type png)
 <use ./figs/notched_cylinder.png>
-Package pdftex.def Info: ./figs/notched_cylinder.png  used on input line 2338.
+Package pdftex.def Info: ./figs/notched_cylinder.png  used on input line 2341.
 (pdftex.def)             Requested size: 281.85587pt x 213.7484pt.
 [43 <./figs/notched_prism.png>] [44 <./figs/ell_shape.png> <./figs/notched_cyli
 nder.png>]
 <./figs/prism.png, id=802, 580.35pt x 270.903pt>
 File: ./figs/prism.png Graphic file (type png)
 <use ./figs/prism.png>
-Package pdftex.def Info: ./figs/prism.png  used on input line 2362.
+Package pdftex.def Info: ./figs/prism.png  used on input line 2365.
 (pdftex.def)             Requested size: 328.82707pt x 153.4945pt.
  [45 <./figs/prism.png>] [46]
 <./figs/longitudinal.png, id=815, 621.522pt x 217.029pt>
 File: ./figs/longitudinal.png Graphic file (type png)
 <use ./figs/longitudinal.png>
-Package pdftex.def Info: ./figs/longitudinal.png  used on input line 2440.
+Package pdftex.def Info: ./figs/longitudinal.png  used on input line 2443.
 (pdftex.def)             Requested size: 469.75502pt x 164.03636pt.
 <./figs/stirrups.png, id=817, 593.928pt x 266.304pt>
 File: ./figs/stirrups.png Graphic file (type png)
 <use ./figs/stirrups.png>
-Package pdftex.def Info: ./figs/stirrups.png  used on input line 2452.
+Package pdftex.def Info: ./figs/stirrups.png  used on input line 2455.
 (pdftex.def)             Requested size: 469.75502pt x 210.63385pt.
  [47 <./figs/longitudinal.png>]
 <./figs/external_reinforcement.png, id=826, 621.522pt x 268.056pt>
 File: ./figs/external_reinforcement.png Graphic file (type png)
 <use ./figs/external_reinforcement.png>
 Package pdftex.def Info: ./figs/external_reinforcement.png  used on input line 
-2469.
+2472.
 (pdftex.def)             Requested size: 469.75502pt x 202.60396pt.
  [48 <./figs/stirrups.png>] [49 <./figs/external_reinforcement.png>]
 <./figs/3pbt.png, id=841, 428.583pt x 299.373pt>
 File: ./figs/3pbt.png Graphic file (type png)
 <use ./figs/3pbt.png>
-Package pdftex.def Info: ./figs/3pbt.png  used on input line 2522.
+Package pdftex.def Info: ./figs/3pbt.png  used on input line 2525.
 (pdftex.def)             Requested size: 187.89914pt x 131.24944pt.
  [50 <./figs/3pbt.png>]
 <./figs/4pbt.png, id=850, 428.364pt x 296.307pt>
 File: ./figs/4pbt.png Graphic file (type png)
 <use ./figs/4pbt.png>
-Package pdftex.def Info: ./figs/4pbt.png  used on input line 2539.
+Package pdftex.def Info: ./figs/4pbt.png  used on input line 2542.
 (pdftex.def)             Requested size: 187.89914pt x 129.97308pt.
 <./figs/axial_test.png, id=852, 179.361pt x 463.185pt>
 File: ./figs/axial_test.png Graphic file (type png)
 <use ./figs/axial_test.png>
-Package pdftex.def Info: ./figs/axial_test.png  used on input line 2555.
+Package pdftex.def Info: ./figs/axial_test.png  used on input line 2558.
 (pdftex.def)             Requested size: 70.46037pt x 181.956pt.
  [51 <./figs/4pbt.png> <./figs/axial_test.png>]
 <./figs/pad_support.png, id=861, 459.9pt x 323.463pt>
 File: ./figs/pad_support.png Graphic file (type png)
 <use ./figs/pad_support.png>
-Package pdftex.def Info: ./figs/pad_support.png  used on input line 2596.
+Package pdftex.def Info: ./figs/pad_support.png  used on input line 2599.
 (pdftex.def)             Requested size: 187.89914pt x 132.15672pt.
  [52]
 <./figs/roller_support.png, id=868, 459.9pt x 323.463pt>
 File: ./figs/roller_support.png Graphic file (type png)
 <use ./figs/roller_support.png>
-Package pdftex.def Info: ./figs/roller_support.png  used on input line 2628.
+Package pdftex.def Info: ./figs/roller_support.png  used on input line 2631.
 (pdftex.def)             Requested size: 164.41711pt x 115.64207pt.
  [53 <./figs/pad_support.png> <./figs/roller_support.png>] [54]
-Underfull \hbox (badness 2707) in paragraph at lines 2742--2743
+Underfull \hbox (badness 2707) in paragraph at lines 2745--2746
 \OT1/cmr/m/n/10.95 ma-te-rial def-i-ni-tion con-tain-ing the ma-te-rial
  []
 
 
-Underfull \hbox (badness 3792) in paragraph at lines 2745--2746
+Underfull \hbox (badness 3792) in paragraph at lines 2748--2749
 \OT1/cmr/m/n/10.95 om-e-try def-i-ni-tion based on the ge-om-e-try
  []
 
 [55] [56]
-Overfull \hbox (25.3971pt too wide) in alignment at lines 2834--2838
+Overfull \hbox (25.3971pt too wide) in alignment at lines 2837--2841
  [] [] 
  []
 
 
-Overfull \hbox (25.3971pt too wide) in alignment at lines 2838--2843
+Overfull \hbox (25.3971pt too wide) in alignment at lines 2841--2846
  [] [] 
  []
 
 
-Overfull \hbox (25.3971pt too wide) in alignment at lines 2843--2867
+Overfull \hbox (25.3971pt too wide) in alignment at lines 2846--2870
  [] [] 
  []
 
 [57]
-Overfull \hbox (4.33698pt too wide) in paragraph at lines 3018--3018
+Overfull \hbox (4.33698pt too wide) in paragraph at lines 3021--3021
 []|\OT1/cmtt/m/n/10.95 engineered[]cementitious[]composites| 
  []
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 3031--3032
+Underfull \hbox (badness 1215) in paragraph at lines 3034--3035
 []|\OT1/cmr/m/n/10.95 Concrete pro-duced us-ing lightweight ag-gre-gates or
  []
 
 [58]
-Overfull \hbox (6.61005pt too wide) in alignment at lines 3055--3061
+Overfull \hbox (6.61005pt too wide) in alignment at lines 3058--3064
  [] [] 
  []
 
 
-Overfull \hbox (6.61005pt too wide) in alignment at lines 3061--3066
+Overfull \hbox (6.61005pt too wide) in alignment at lines 3064--3069
  [] [] 
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 3075--3076
+Underfull \hbox (badness 1210) in paragraph at lines 3078--3079
 []|\OT1/cmr/m/n/10.95 High early-strength hy-draulic ce-ment con-form-ing to AS
 TM
  []
 
 
-Underfull \hbox (badness 1708) in paragraph at lines 3087--3088
+Underfull \hbox (badness 1708) in paragraph at lines 3090--3091
 []|\OT1/cmr/m/n/10.95 Moderate sulfate-resistance hy-draulic ce-ment con-form-i
 ng to
  []
 
 
-Underfull \hbox (badness 2547) in paragraph at lines 3097--3098
+Underfull \hbox (badness 2547) in paragraph at lines 3100--3101
 []|\OT1/cmr/m/n/10.95 Moderate sulfate-resistance port-land ce-ment con-form-in
 g to
  []
 
 
-Overfull \hbox (6.61005pt too wide) in alignment at lines 3066--3210
+Overfull \hbox (6.61005pt too wide) in alignment at lines 3069--3213
  [] [] 
  []
 
 [59] [60]
-Overfull \hbox (11.30502pt too wide) in alignment at lines 3262--3267
+Overfull \hbox (11.30502pt too wide) in alignment at lines 3265--3270
  [] [] 
  []
 
 
-Overfull \hbox (11.30502pt too wide) in alignment at lines 3267--3272
+Overfull \hbox (11.30502pt too wide) in alignment at lines 3270--3275
  [] [] 
  []
 
 
-Underfull \hbox (badness 1735) in paragraph at lines 3296--3297
+Underfull \hbox (badness 1735) in paragraph at lines 3299--3300
 []|\OT1/cmr/m/n/10.95 Water-reducing ad-mix-ture based on carbohydrate-derived
  []
 
 
-Overfull \hbox (11.30502pt too wide) in alignment at lines 3272--3305
+Overfull \hbox (11.30502pt too wide) in alignment at lines 3275--3308
  [] [] 
  []
 
 [61]
-Underfull \hbox (badness 1092) in paragraph at lines 3340--3341
+Underfull \hbox (badness 1092) in paragraph at lines 3343--3344
 []|\OT1/cmr/m/n/10.95 Air-entraining ad-mix-ture based on sul-fated hy-dro-car-
 bon
  []
 
 
-Underfull \hbox (badness 1484) in paragraph at lines 3343--3344
+Underfull \hbox (badness 1484) in paragraph at lines 3346--3347
 []|\OT1/cmr/m/n/10.95 Air-entraining ad-mix-ture based on protein-derived com-
  []
 
 [62]
-Overfull \hbox (11.30502pt too wide) in alignment at lines 3365--3370
+Overfull \hbox (11.30502pt too wide) in alignment at lines 3368--3373
  [] [] 
  []
 
 
-Overfull \hbox (11.30502pt too wide) in alignment at lines 3370--3375
+Overfull \hbox (11.30502pt too wide) in alignment at lines 3373--3378
  [] [] 
  []
 
 
-Overfull \hbox (11.30502pt too wide) in alignment at lines 3375--3426
+Overfull \hbox (11.30502pt too wide) in alignment at lines 3378--3429
  [] [] 
  []
 
 
-Underfull \hbox (badness 7925) in paragraph at lines 3483--3484
+Underfull \hbox (badness 7925) in paragraph at lines 3486--3487
 []|\OT1/cmr/m/n/10.95 Hydration ac-cel-er-a-tor specif-i-cally for-mu-lated for
 
  []
 
 [63]
-Underfull \hbox (badness 1210) in paragraph at lines 3554--3555
+Underfull \hbox (badness 1210) in paragraph at lines 3557--3558
 []|\OT1/cmr/m/n/10.95 Artificially man-u-fac-tured fine ag-gre-gate pro-duced t
 hrough
  []
 
 [64]
-Overfull \hbox (11.29784pt too wide) in alignment at lines 3595--3600
+Overfull \hbox (11.29784pt too wide) in alignment at lines 3598--3603
  [] [] 
  []
 
 
-Overfull \hbox (11.29784pt too wide) in alignment at lines 3600--3605
+Overfull \hbox (11.29784pt too wide) in alignment at lines 3603--3608
  [] [] 
  []
 
 
-Overfull \hbox (11.29784pt too wide) in alignment at lines 3605--3659
+Overfull \hbox (11.29784pt too wide) in alignment at lines 3608--3662
  [] [] 
  []
 
 [65] [66]
-Overfull \hbox (11.30502pt too wide) in alignment at lines 3772--3777
+Overfull \hbox (11.30502pt too wide) in alignment at lines 3775--3780
  [] [] 
  []
 
 
-Overfull \hbox (11.30502pt too wide) in alignment at lines 3777--3782
+Overfull \hbox (11.30502pt too wide) in alignment at lines 3780--3785
  [] [] 
  []
 
 
-Overfull \hbox (1.67026pt too wide) in paragraph at lines 3787--3787
+Overfull \hbox (1.67026pt too wide) in paragraph at lines 3790--3790
 []|\OT1/cmtt/m/n/10.95 reinforcement[]material[]type| 
  []
 
 
-Overfull \hbox (11.30502pt too wide) in alignment at lines 3782--3806
+Overfull \hbox (11.30502pt too wide) in alignment at lines 3785--3809
  [] [] 
  []
 
 
-Underfull \hbox (badness 2635) in paragraph at lines 3826--3827
+Underfull \hbox (badness 2635) in paragraph at lines 3829--3830
 []|\OT1/cmr/m/n/10.95 Fiber-reinforced poly-mer re-in-force-ment com-posed of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3829--3830
+Underfull \hbox (badness 10000) in paragraph at lines 3832--3833
 []|\OT1/cmr/m/n/10.95 Conventional car-bon steel re-in-force-ment with-out
  []
 
 [67]
-Underfull \hbox (badness 10000) in paragraph at lines 3898--3899
+Underfull \hbox (badness 10000) in paragraph at lines 3901--3902
 \OT1/cmr/m/n/10.95 The fol-low-ing ta-ble de-fines the fields used in the \OT1/
 cmtt/m/n/10.95 reinforcement[]layouts \OT1/cmr/m/n/10.95 tab.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3898--3899
+Underfull \hbox (badness 10000) in paragraph at lines 3901--3902
 \OT1/cmr/m/n/10.95 The machine-readable def-i-ni-tions of these vo-cab-u-lary e
 n-tries are pro-vided in
  []
 
 
-Overfull \hbox (11.30502pt too wide) in alignment at lines 3900--3905
+Overfull \hbox (11.30502pt too wide) in alignment at lines 3903--3908
  [] [] 
  []
 
 
-Overfull \hbox (11.30502pt too wide) in alignment at lines 3905--3910
+Overfull \hbox (11.30502pt too wide) in alignment at lines 3908--3913
  [] [] 
  []
 
 
-Underfull \hbox (badness 1616) in paragraph at lines 3916--3917
+Underfull \hbox (badness 1616) in paragraph at lines 3919--3920
 []|\OT1/cmr/m/n/10.95 Boolean field in-di-cat-ing whether trans-verse re-in-for
 ce-ment is
  []
 
 
-Overfull \hbox (11.30502pt too wide) in alignment at lines 3910--3924
+Overfull \hbox (11.30502pt too wide) in alignment at lines 3913--3927
  [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3931--3933
+Underfull \hbox (badness 10000) in paragraph at lines 3934--3936
 \OT1/cmr/m/n/10.95 The fol-low-ing ta-ble de-fines the fields used in the \OT1/
 cmtt/m/n/10.95 reinforcement[]components
  []
 
 
-Underfull \hbox (badness 4819) in paragraph at lines 3931--3933
+Underfull \hbox (badness 4819) in paragraph at lines 3934--3936
 \OT1/cmr/m/n/10.95 tab. The machine-readable def-i-ni-tions of these vo-cab-u-l
 ary en-tries are pro-vided in
  []
 
 [68]
-Overfull \hbox (11.30502pt too wide) in alignment at lines 3934--3939
+Overfull \hbox (11.30502pt too wide) in alignment at lines 3937--3942
  [] [] 
  []
 
 
-Overfull \hbox (11.30502pt too wide) in alignment at lines 3939--3944
+Overfull \hbox (11.30502pt too wide) in alignment at lines 3942--3947
  [] [] 
  []
 
 
-Overfull \hbox (11.30502pt too wide) in alignment at lines 3944--4059
+Overfull \hbox (11.30502pt too wide) in alignment at lines 3947--4062
  [] [] 
  []
 
 [69] [70] [71]
-Underfull \hbox (badness 1946) in paragraph at lines 4276--4277
+Underfull \hbox (badness 1946) in paragraph at lines 4279--4280
 []|\OT1/cmr/m/n/10.95 Fiber-reinforced poly-mer an-chor-age sys-tem us-ing spik
 e-
  []
 
 [72]
-Overfull \hbox (8.96667pt too wide) in paragraph at lines 4356--4356
+Overfull \hbox (8.96667pt too wide) in paragraph at lines 4359--4359
 []|\OT1/cmtt/m/n/10.95 initial[]env[]relative[]humidity[]percent| 
  []
 
 
-Overfull \hbox (18.85442pt too wide) in paragraph at lines 4359--4359
+Overfull \hbox (18.85442pt too wide) in paragraph at lines 4362--4362
 []|\OT1/cmtt/m/n/10.95 env[]relative[]humidity[]history[]file[]name| 
  []
 
 [73]
-Underfull \hbox (badness 3158) in paragraph at lines 4516--4517
+Underfull \hbox (badness 3158) in paragraph at lines 4519--4520
 []|\OT1/cmr/m/n/10.95 Microscopy-based ma-te-rial char-ac-ter-i-za-tion us-ing
  []
 
 
-Underfull \hbox (badness 1728) in paragraph at lines 4522--4523
+Underfull \hbox (badness 1728) in paragraph at lines 4525--4526
 []|\OT1/cmr/m/n/10.95 Calorimetry test per-formed un-der semi-adiabatic
  []
 
 
-Underfull \hbox (badness 1194) in paragraph at lines 4546--4547
+Underfull \hbox (badness 1194) in paragraph at lines 4549--4550
 []|\OT1/cmr/m/n/10.95 Material char-ac-ter-i-za-tion us-ing ther-mo-gravi-met-r
 ic
  []
 
 
-Underfull \hbox (badness 1527) in paragraph at lines 4582--4583
+Underfull \hbox (badness 1527) in paragraph at lines 4585--4586
 []|\OT1/cmr/m/n/10.95 Fracture me-chan-ics test per-formed us-ing wedge-
  []
 
 
-Underfull \hbox (badness 6110) in paragraph at lines 4598--4599
+Underfull \hbox (badness 6110) in paragraph at lines 4601--4602
 []|\OT1/cmr/m/n/10.95 Acceptance cri-te-ria for ma-sonry and con-crete
  []
 
 
-Underfull \hbox (badness 1168) in paragraph at lines 4604--4605
+Underfull \hbox (badness 1168) in paragraph at lines 4607--4608
 []|\OT1/cmr/m/n/10.95 ASTM stan-dard prac-tice for es-ti-mat-ing con-crete
  []
 
 [74] [75] [76] [77] [78]
-Overfull \hbox (6.60287pt too wide) in alignment at lines 4790--4794
+Overfull \hbox (6.60287pt too wide) in alignment at lines 4793--4797
  [] [] 
  []
 
 
-Overfull \hbox (6.60287pt too wide) in alignment at lines 4794--4799
+Overfull \hbox (6.60287pt too wide) in alignment at lines 4797--4802
  [] [] 
  []
 
 
-Overfull \hbox (30.91107pt too wide) in paragraph at lines 4889--4889
+Overfull \hbox (30.91107pt too wide) in paragraph at lines 4892--4892
 []|\OT1/cmtt/m/n/10.95 fiber | fiber[]bridging[]and[]pull[]out[]resistance| 
  []
 
 
-Underfull \hbox (badness 2932) in paragraph at lines 4893--4894
+Underfull \hbox (badness 2932) in paragraph at lines 4896--4897
 []|\OT1/cmr/m/n/10.95 Residual load-carrying ca-pac-ity af-ter ma-trix
  []
 
 
-Underfull \hbox (badness 2142) in paragraph at lines 4957--4958
+Underfull \hbox (badness 2142) in paragraph at lines 4960--4961
 []|\OT1/cmr/m/n/10.95 Surface hard-ness re-sponse mea-sured through
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4960--4961
+Underfull \hbox (badness 10000) in paragraph at lines 4963--4964
 []|\OT1/cmr/m/n/10.95 Wave prop-a-ga-tion char-ac-ter-is-tics mea-sured
  []
 
 
-Underfull \hbox (badness 3439) in paragraph at lines 5007--5008
+Underfull \hbox (badness 3439) in paragraph at lines 5010--5011
 []|\OT1/cmr/m/n/10.95 Cohesive and ad-he-sive strength mech-a-nisms
  []
 
 
-Overfull \hbox (5.3869pt too wide) in paragraph at lines 5054--5054
+Overfull \hbox (5.3869pt too wide) in paragraph at lines 5057--5057
 []|\OT1/cmtt/m/n/10.95 strength | slab[]column[]connection[]failure| 
  []
 
 
-Overfull \hbox (6.99654pt too wide) in paragraph at lines 5069--5069
+Overfull \hbox (6.99654pt too wide) in paragraph at lines 5072--5072
 []|\OT1/cmtt/m/n/10.95 strength | unconfined[]compressive[]failure| 
  []
 
 
-Underfull \hbox (badness 3108) in paragraph at lines 5092--5093
+Underfull \hbox (badness 3108) in paragraph at lines 5095--5096
 []|\OT1/cmr/m/n/10.95 Thermal dif-fu-siv-ity gov-ern-ing tran-sient heat
  []
 
 
-Underfull \hbox (badness 7030) in paragraph at lines 5099--5100
+Underfull \hbox (badness 7030) in paragraph at lines 5102--5103
 []|\OT1/cmr/m/n/10.95 Autogenous shrink-age as-so-ci-ated with self-
  []
 
 
-Underfull \hbox (badness 2781) in paragraph at lines 5102--5103
+Underfull \hbox (badness 2781) in paragraph at lines 5105--5106
 []|\OT1/cmr/m/n/10.95 Time-dependent de-for-ma-tion un-der sus-tained
  []
 
 
-Underfull \hbox (badness 2762) in paragraph at lines 5108--5109
+Underfull \hbox (badness 2762) in paragraph at lines 5111--5112
 []|\OT1/cmr/m/n/10.95 Concrete ma-tu-rity evo-lu-tion as-so-ci-ated with
  []
 
 
-Overfull \hbox (6.60287pt too wide) in alignment at lines 4799--5140
+Overfull \hbox (6.60287pt too wide) in alignment at lines 4802--5143
  [] [] 
  []
 
 [79] [80] [81] [82]
-Overfull \hbox (11.30501pt too wide) in alignment at lines 5149--5154
+Overfull \hbox (11.30501pt too wide) in alignment at lines 5152--5157
  [] [] 
  []
 
 
-Overfull \hbox (11.30501pt too wide) in alignment at lines 5154--5159
+Overfull \hbox (11.30501pt too wide) in alignment at lines 5157--5162
  [] [] 
  []
 
 
-Overfull \hbox (11.30501pt too wide) in alignment at lines 5159--5210
+Overfull \hbox (11.30501pt too wide) in alignment at lines 5162--5213
  [] [] 
  []
 
 [83] [84]
-Underfull \hbox (badness 1137) in paragraph at lines 5366--5367
+Underfull \hbox (badness 1137) in paragraph at lines 5369--5370
 []|\OT1/cmr/m/n/10.95 High-frame-rate imag-ing de-vice used to cap-ture rapid
  []
 
 
-Underfull \hbox (badness 1117) in paragraph at lines 5396--5397
+Underfull \hbox (badness 1117) in paragraph at lines 5399--5400
 []|\OT1/cmr/m/n/10.95 Instrument used to char-ac-ter-ize pore-size dis-tri-bu-t
 ions
  []
 
 
-Underfull \hbox (badness 3449) in paragraph at lines 5399--5400
+Underfull \hbox (badness 3449) in paragraph at lines 5402--5403
 []|\OT1/cmr/m/n/10.95 Micro-computed to-mog-ra-phy scan-ner used for three-
  []
 
 [85] [86] [87]
-Underfull \hbox (badness 1067) in paragraph at lines 5644--5645
+Underfull \hbox (badness 1067) in paragraph at lines 5647--5648
 []|\OT1/cmr/m/n/10.95 Unique iden-ti-fier as-so-ci-ated with the data en-try
  []
 
 
-Overfull \hbox (4.82762pt too wide) in paragraph at lines 5689--5689
+Overfull \hbox (4.82762pt too wide) in paragraph at lines 5692--5692
 []|\OT1/cmtt/m/n/10.95 quantity[]reported[]standard[]deviation| 
  []
 
 
-Underfull \hbox (badness 1394) in paragraph at lines 5690--5691
+Underfull \hbox (badness 1394) in paragraph at lines 5693--5694
 []|\OT1/cmr/m/n/10.95 Standard de-vi-a-tion as-so-ci-ated with the re-ported
  []
 
 [88] [89] [90]
-Underfull \hbox (badness 1052) in paragraph at lines 5856--5857
+Underfull \hbox (badness 1052) in paragraph at lines 5859--5860
 []|\OT1/cmr/m/n/10.95 Quantity as-so-ci-ated with fluid ab-sorp-tion or up-take
 
  []
 
 
-Overfull \hbox (0.6199pt too wide) in paragraph at lines 5867--5867
+Overfull \hbox (0.6199pt too wide) in paragraph at lines 5870--5870
 []|\OT1/cmtt/m/n/10.95 coefficient[]of[]thermal[]expansion| 
  []
 
 
-Underfull \hbox (badness 2538) in paragraph at lines 5871--5872
+Underfull \hbox (badness 2538) in paragraph at lines 5874--5875
 []|\OT1/cmr/m/n/10.95 Quantity as-so-ci-ated with con-cen-tra-tion of chem-i-ca
 l
  []
 
 
-Underfull \hbox (badness 1838) in paragraph at lines 5934--5935
+Underfull \hbox (badness 1838) in paragraph at lines 5937--5938
 []|\OT1/cmr/m/n/10.95 Permeability as-so-ci-ated with fluid or gas trans-port
  []
 
@@ -1776,7 +1776,7 @@ Package rerunfilecheck Info: File `main.out' has not changed.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 2566 ({)
+### simple group (level 1) entered at line 2569 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
  13005 strings out of 467509
@@ -1808,7 +1808,7 @@ m/cmsy8.pfb><C:/Users/GianlucaCusatis/AppData/Local/Programs/MiKTeX/fonts/type1
 Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/
 GianlucaCusatis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
 tt9.pfb>
-Output written on main.pdf (93 pages, 1905626 bytes).
+Output written on main.pdf (93 pages, 1905714 bytes).
 PDF statistics:
  1263 PDF objects out of 1440 (max. 8388607)
  309 named destinations out of 1000 (max. 500000)

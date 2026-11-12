@@ -1,0 +1,99 @@
+\contentsline {part}{I\hspace {1em}Introduction}{5}{part.1}%
+\contentsline {section}{\numberline {1}Vision}{5}{section.1}%
+\contentsline {section}{\numberline {2}Concrete Grand Challenge Working Group}{6}{section.2}%
+\contentsline {section}{\numberline {3}Database Philosophy}{7}{section.3}%
+\contentsline {section}{\numberline {4}Database Hierarchy }{8}{section.4}%
+\contentsline {section}{\numberline {5}Parametrization Schemes}{9}{section.5}%
+\contentsline {section}{\numberline {6}Manual Data Submission}{10}{section.6}%
+\contentsline {section}{\numberline {7}AI-Assisted Data Submission}{11}{section.7}%
+\contentsline {section}{\numberline {8}Use of AI Tools in Documentation and Schema Development}{12}{section.8}%
+\contentsline {section}{\numberline {9}Naming Conventions}{12}{section.9}%
+\contentsline {section}{\numberline {10}Coordinate Systems}{13}{section.10}%
+\contentsline {section}{\numberline {11}Units Policy}{13}{section.11}%
+\contentsline {section}{\numberline {12}File Standards}{14}{section.12}%
+\contentsline {subsection}{\numberline {12.1}Curve CSV Formatting}{14}{subsection.12.1}%
+\contentsline {subsection}{\numberline {12.2}Table CSV Formatting}{14}{subsection.12.2}%
+\contentsline {subsection}{\numberline {12.3}Specimen Geometry Parametsrs CSV Formatting}{14}{subsection.12.3}%
+\contentsline {subsection}{\numberline {12.4}HDF5 Recommendations}{15}{subsection.12.4}%
+\contentsline {subsection}{\numberline {12.5}JSON File Standards}{15}{subsection.12.5}%
+\contentsline {section}{\numberline {13}Controlled Vocabularies}{15}{section.13}%
+\contentsline {section}{\numberline {14}Required vs Optional Tabs and Fields}{16}{section.14}%
+\contentsline {part}{II\hspace {1em}Step-by-Step Manual Submission Workflow}{18}{part.2}%
+\contentsline {section}{\numberline {15}Create Source Folder}{18}{section.15}%
+\contentsline {section}{\numberline {16}Create Batch Folders}{18}{section.16}%
+\contentsline {section}{\numberline {17}Create Test Folders}{18}{section.17}%
+\contentsline {section}{\numberline {18}Populate the \texttt {literature\_sources} Tab}{18}{section.18}%
+\contentsline {section}{\numberline {19}Populate the \texttt {keywords} Tab}{19}{section.19}%
+\contentsline {section}{\numberline {20}Populate the \texttt {material\_batches} Tab}{19}{section.20}%
+\contentsline {section}{\numberline {21}Populate the \texttt {reinforcement\_materials} Tab}{21}{section.21}%
+\contentsline {section}{\numberline {22}Populate the \texttt {geometries} Tab}{22}{section.22}%
+\contentsline {section}{\numberline {23}Populate the \texttt {printing\_variables} Tab}{23}{section.23}%
+\contentsline {section}{\numberline {24}Populate the \texttt {reinforcement\_layouts} Tab}{24}{section.24}%
+\contentsline {section}{\numberline {25}Populate the \texttt {reinforcement\_components} Tab}{24}{section.25}%
+\contentsline {section}{\numberline {26}Populate the \texttt {specimens} Tab}{27}{section.26}%
+\contentsline {section}{\numberline {27}Populate the \texttt {tests} Tab}{28}{section.27}%
+\contentsline {section}{\numberline {28}Populate the \texttt {devices\_and\_supports} Tab}{31}{section.28}%
+\contentsline {section}{\numberline {29}Populate the \texttt {loading\_histories} Tab}{32}{section.29}%
+\contentsline {section}{\numberline {30}Populate the \texttt {data} Tab}{34}{section.30}%
+\contentsline {part}{III\hspace {1em}Step-by-Step AI-Assisted Submission Workflow}{38}{part.3}%
+\contentsline {part}{IV\hspace {1em}Standardized Libraries}{39}{part.4}%
+\contentsline {section}{\numberline {31}Specimen Geometry Parametrization Library}{39}{section.31}%
+\contentsline {subsection}{\numberline {31.1}\texttt {cube}}{40}{subsection.31.1}%
+\contentsline {subsection}{\numberline {31.2}\texttt {cylinder}}{40}{subsection.31.2}%
+\contentsline {subsection}{\numberline {31.3}\texttt {double\_notched\_prism}}{41}{subsection.31.3}%
+\contentsline {subsection}{\numberline {31.4}\texttt {dogbone}}{42}{subsection.31.4}%
+\contentsline {subsection}{\numberline {31.5}\texttt {notched\_prism}}{42}{subsection.31.5}%
+\contentsline {subsection}{\numberline {31.6}\texttt {ell\_shape}}{43}{subsection.31.6}%
+\contentsline {subsection}{\numberline {31.7}\texttt {notched\_cylinder}}{44}{subsection.31.7}%
+\contentsline {subsection}{\numberline {31.8}\texttt {prism}}{45}{subsection.31.8}%
+\contentsline {section}{\numberline {32}Reinforcement Geometry Parametrization Library}{46}{section.32}%
+\contentsline {subsection}{\numberline {32.1}Parametrization of Flexural Reinforcement, Tensile Reinforcement, Stirrups, and Ties}{46}{subsection.32.1}%
+\contentsline {section}{\numberline {33}Parametrization of External Reinforcement}{48}{section.33}%
+\contentsline {section}{\numberline {34}Test Geometry Parametrization Library}{50}{section.34}%
+\contentsline {subsection}{\numberline {34.1}\texttt {three\_point\_bending\_test}}{50}{subsection.34.1}%
+\contentsline {subsection}{\numberline {34.2}\texttt {four\_point\_bending\_test} and \texttt {modulus\_of\_rupture\_test}}{50}{subsection.34.2}%
+\contentsline {subsection}{\numberline {34.3}\texttt {axial\_test}}{51}{subsection.34.3}%
+\contentsline {section}{\numberline {35}Devices \& Supports Parametrization Library}{52}{section.35}%
+\contentsline {subsection}{\numberline {35.1}\texttt {pad\_support}}{52}{subsection.35.1}%
+\contentsline {subsection}{\numberline {35.2}\texttt {roller\_support}}{53}{subsection.35.2}%
+\contentsline {part}{V\hspace {1em}Controlled Vocabulary Reference}{54}{part.5}%
+\contentsline {section}{\numberline {36}Identifiers}{55}{section.36}%
+\contentsline {section}{\numberline {37}Literature Source Tab Fields}{56}{section.37}%
+\contentsline {subsection}{\numberline {37.1}Literature Source Types}{57}{subsection.37.1}%
+\contentsline {section}{\numberline {38}Material Batch Tab Fields}{57}{section.38}%
+\contentsline {subsection}{\numberline {38.1}Material Classes}{58}{subsection.38.1}%
+\contentsline {subsection}{\numberline {38.2}Cement Types}{59}{subsection.38.2}%
+\contentsline {subsection}{\numberline {38.3}Superplasticizer Types}{61}{subsection.38.3}%
+\contentsline {subsection}{\numberline {38.4}Water Reducer Types}{61}{subsection.38.4}%
+\contentsline {subsection}{\numberline {38.5}Air-Entraining Admixture Types}{62}{subsection.38.5}%
+\contentsline {subsection}{\numberline {38.6}Rheology Modifier Types}{63}{subsection.38.6}%
+\contentsline {subsection}{\numberline {38.7}Hydration Accelerator Types}{63}{subsection.38.7}%
+\contentsline {subsection}{\numberline {38.8}Aggregate Types}{64}{subsection.38.8}%
+\contentsline {subsection}{\numberline {38.9}Fiber Types}{65}{subsection.38.9}%
+\contentsline {section}{\numberline {39}Geometries Tab Fields}{66}{section.39}%
+\contentsline {subsection}{\numberline {39.1}Specimen Geometry Types}{66}{subsection.39.1}%
+\contentsline {section}{\numberline {40}Reinforcement Materials Tab Fields}{67}{section.40}%
+\contentsline {subsection}{\numberline {40.1}Reinforcement Material Types}{67}{subsection.40.1}%
+\contentsline {section}{\numberline {41}Specimen Tab Fields}{68}{section.41}%
+\contentsline {subsection}{\numberline {41.1}Structural Form Types}{68}{subsection.41.1}%
+\contentsline {section}{\numberline {42}Reinforcement Layout Tab Fields}{68}{section.42}%
+\contentsline {section}{\numberline {43}Reinforcement Components Tab Fields}{69}{section.43}%
+\contentsline {subsection}{\numberline {43.1}Reinforcement Types}{70}{subsection.43.1}%
+\contentsline {subsection}{\numberline {43.2}Bar Designations}{70}{subsection.43.2}%
+\contentsline {subsection}{\numberline {43.3}Adhesive Types}{72}{subsection.43.3}%
+\contentsline {subsection}{\numberline {43.4}Anchorage Types}{72}{subsection.43.4}%
+\contentsline {section}{\numberline {44}Test Fields}{73}{section.44}%
+\contentsline {subsection}{\numberline {44.1}Test Types}{74}{subsection.44.1}%
+\contentsline {subsection}{\numberline {44.2}Observed Mechanisms}{79}{subsection.44.2}%
+\contentsline {subsection}{\numberline {44.3}Curing Conditions}{83}{subsection.44.3}%
+\contentsline {subsection}{\numberline {44.4}Hygral and Thermal Boundary Conditions}{84}{subsection.44.4}%
+\contentsline {section}{\numberline {45}Devices and Supports Tab Fields}{84}{section.45}%
+\contentsline {subsection}{\numberline {45.1}Device and Support Types}{85}{subsection.45.1}%
+\contentsline {section}{\numberline {46}Loading History Tab Fields}{87}{section.46}%
+\contentsline {subsection}{\numberline {46.1}Loading Modes}{88}{subsection.46.1}%
+\contentsline {subsection}{\numberline {46.2}Loading Control Variables}{88}{subsection.46.2}%
+\contentsline {section}{\numberline {47}Data Tab Fields}{88}{section.47}%
+\contentsline {subsection}{\numberline {47.1}Extraction Methods}{90}{subsection.47.1}%
+\contentsline {subsection}{\numberline {47.2}Data Types}{90}{subsection.47.2}%
+\contentsline {subsection}{\numberline {47.3}Reported Quantities}{91}{subsection.47.3}%
+\contentsline {subsection}{\numberline {47.4}Quantity Reported Types}{93}{subsection.47.4}%

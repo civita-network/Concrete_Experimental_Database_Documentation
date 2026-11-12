@@ -45,6 +45,216 @@
 %============================================================
 \part{The CIVITA Network}
 %============================================================
+Part I: The CIVITA Network
+    \chapter{Introduction}
+    \chapter{CIVITA Architecture}
+    \chapter{Shared Scientific Definitions}
+       \section{Global Geometry Library}
+            \subsection{General conventions}
+\section{Specimen Geometry Parametrization Library}
+The Geometry Parametrization Library defines the standardized parametric representations used to describe specimen geometries throughout the database. Its primary purpose is to convert heterogeneous geometric descriptions reported in the literature into consistent parameter sets. Each
+geometry type is represented through a predefined set of parameters, coordinate conventions, and dimensional descriptors stored in structured CSV or JSON-compatible formats. The parametrization framework enables consistent interpretation of specimen dimensions across datasets originating
+from different laboratories and experimental programs while minimizing redundancy and facilitating reuse of geometry definitions across multiple specimens and tests. The library is extensible, allowing additional geometry types and parameter definitions to be incorporated as new experimental configurations emerge during the data collection effort. The machine-readable definitions of the geometry parametrizations are additionally provided through the accompanying \texttt{geometry\_library.json} schema file, which formalizes parameter names, units, coordinate conventions, required fields, and validation rules associated with each geometry type. Geometry parameter files may be provided either in CSV format or JSON format.
+
+The geometry parametrization defines the specimen dimensions and associated coordinate system using a standardized right-handed Cartesian reference frame.
+
+
+
+The current library includes: 
+\begin{itemize}
+    \item \hyperref[subsec:geometry_cube]{\texttt{cube}}
+    \item \hyperref[subsec:geometry_cylinder]{\texttt{cylinder}}
+        \item \hyperref[subsec:geometry_dogbone]{\texttt{dogbone}}
+    \item \hyperref[subsec:geometry_double_notched_prism]{\texttt{double\_notched\_prism}}
+    \item \hyperref[subsec:geometry_notched_prism]{\texttt{notched\_prism}}
+    \item \hyperref[subsec:geometry_ell_shape]{\texttt{ell\_shape}}
+    \item \hyperref[subsec:geometry_notched_cylinder]{\texttt{notched\_cylinder}}
+
+    \item \hyperref[subsec:geometry_prism]{\texttt{prism}}
+\end{itemize}
+
+\subsection{\texttt{cube}}
+\label{subsec:geometry_cube}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.3\linewidth]{./figs/cube.png}
+    \caption{Cube parametrization}
+    \label{fig:cube}
+\end{figure}
+
+As illustrated in Fig.~\ref{fig:cube}, the local coordinate system is defined by the axes $x$, $y$, and $z$, where the origin corresponds to the reference corner of the specimen. The $x$ direction represents the longitudinal direction of the specimen, the $y$ direction represents the transverse thickness direction, and the $z$ direction represents the vertical depth direction.
+
+The cube geometry is defined by the following parameter:
+
+\begin{itemize}
+    \item \texttt{length}: side length of the cube.
+\end{itemize}
+
+
+\subsection{\texttt{cylinder}}
+\label{subsec:geometry_cylinder}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.3\linewidth]{./figs/cylinder.png}
+    \caption{Cylinder parametrization}
+    \label{fig:cylinder}
+\end{figure}
+
+As illustrated in Fig.~\ref{fig:cylinder}, the local coordinate system is defined by the axes $x$, $y$, and $z$, where the origin corresponds to the center of the top circular surface of the specimen. The $z$ axis represents the longitudinal direction associated with the cylinder length, while the $x$ and $y$ axes define the transverse directions within the circular cross section.
+
+The cylinder geometry is defined by the following parameters:
+
+\begin{itemize}
+    \item \texttt{length}: longitudinal length of the cylinder measured along the $z$ axis;
+    \item \texttt{diameter}: diameter of the circular cross section.
+\end{itemize}
+
+
+\subsection{\texttt{double\_notched\_prism}}
+\label{subsec:geometry_double_notched_prism}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\linewidth]{./figs/double_notched_prism.png}
+    \caption{Doubly notched prism parametrization}
+    \label{fig:double_notched_prism}
+\end{figure}
+
+As illustrated in Fig.~\ref{fig:double_notched_prism}, the local coordinate system is defined by the axes $x$, $y$, and $z$, where the origin is located on the centerline of the specimen. The $x$ axis represents the longitudinal direction associated with the prism length, the $y$ axis represents the transverse thickness direction, and the $z$ axis represents the vertical depth direction. The two notches are positioned anti-symmetrically relative to the specimen centerline through the parameters \texttt{notch\_offset}.
+
+The double notched prism geometry is defined by the following parameters:
+
+\begin{itemize}
+    \item \texttt{length}: prism length measured along the $x$ axis;
+    \item \texttt{thickness}: prism thickness measured along the $y$ axis;
+    \item \texttt{depth}: prism depth measured along the $z$ axis;
+    \item \texttt{notch\_offset}: offset of the first notches relative to the specimen centerline;
+    \item \texttt{notch\_depth}: notch penetration depth measured along the $z$ direction;
+    \item \texttt{notch\_width}: notch opening width;
+    \item \texttt{notch\_tip\_radius}: radius at the notch tip.
+\end{itemize}
+
+
+\subsection{\texttt{dogbone}}
+\label{subsec:geometry_dogbone}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\linewidth]{./figs/dogbone.png}
+    \caption{Dogbone parametrization}
+    \label{fig:dogbone}
+\end{figure}
+
+As illustrated in Fig.~\ref{fig:dogbone}, the local coordinate system is defined by the axes $x$, $y$, and $z$, where the origin is located on the top side and on the longitudinal axis of symmetry of the specimen. The $z$ axis represents the longitudinal direction associated with the dogbone length, the $y$ axis represents the transverse thickness direction, and the $x$ axis represents the horizontal width direction. The reduced central section of the specimen is defined through the corresponding geometric parameters specified below.
+
+\begin{itemize}
+    \item \texttt{length}: total specimen length measured along the $z$ axis;
+    \item \texttt{width}: maximum specimen width measured along the $x$ axis;
+    \item \texttt{thickness}: specimen thickness measured along the $y$ axis;
+    \item \texttt{dogbone\_central\_length}: length of the reduced central region measured along the $z$ axis;
+    \item \texttt{dogbone\_central\_width}: width of the reduced central region measured along the $x$ axis;
+    \item \texttt{dogbone\_head\_length}: length of each enlarged head region measured along the $z$ axis;
+    \item \texttt{dogbone\_transition\_length}: length of each transition region between the head and central regions measured along the $z$ axis;
+    \item \texttt{dogbone\_transition\_width}: width variation defining the transition from the head width to the central width measured along the $x$ axis.
+\end{itemize}
+
+
+\subsection{\texttt{notched\_prism}}
+\label{subsec:geometry_notched_prism}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\linewidth]{./figs/notched_prism.png}
+    \caption{Notched prism parametrization}
+    \label{fig:notched_prism}
+\end{figure}
+
+As illustrated in Fig.~\ref{fig:notched_prism}, the local coordinate system is defined by the axes $x$, $y$, and $z$, where the origin corresponds to the reference corner of the specimen. The $x$ axis represents the longitudinal direction associated with the prism length, the $y$ axis represents the transverse thickness direction, and the $z$ axis represents the vertical depth direction. The notch is positioned relative to the specimen centerline through the parameter \texttt{notch\_offset}. \texttt{notch\_offset} can be either positive or negative.
+
+The notched prism geometry is defined by the following parameters:
+
+\begin{itemize}
+    \item \texttt{length}: prism length measured along the $x$ axis;
+    \item \texttt{thickness}: prism thickness measured along the $y$ axis;
+    \item \texttt{depth}: prism depth measured along the $z$ axis;
+    \item \texttt{notch\_offset}: offset of the notch relative to the specimen centerline;
+    \item \texttt{notch\_depth}: notch penetration depth measured along the $z$ direction;
+    \item \texttt{notch\_width}: notch opening width;
+    \item \texttt{notch\_tip\_radius}: radius at the notch tip.
+\end{itemize}
+
+
+\subsection{\texttt{ell\_shape}}
+\label{subsec:geometry_ell_shape}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.5\linewidth]{./figs/ell_shape.png}
+    \caption{Ell shape parametrization}
+    \label{fig:ell_shape}
+\end{figure}
+
+As illustrated in Fig.~\ref{fig:ell_shape}, the local coordinate system is defined by the axes $x$, $y$, and $z$, where the origin corresponds to the reference corner of the specimen. The $x$ axis represents the longitudinal direction of the specimen, the $y$ axis represents the transverse thickness direction, and the $z$ axis represents the vertical depth direction. The L-shaped geometry is defined through the corresponding geometric parameters specified in the geometry parametrization library.
+
+The ell-shape geometry is defined by the following parameters:
+
+As illustrated in Fig.~\ref{fig:ell_shape}, the local coordinate system is defined by the axes $x$, $y$, and $z$, where the origin corresponds to the reference corner of the specimen. The $x$ axis represents the longitudinal direction of the specimen, the $y$ axis represents the transverse thickness direction, and the $z$ axis represents the vertical depth direction. The L-shaped geometry is defined through the corresponding geometric parameters specified below.
+
+\begin{itemize}
+    \item \texttt{ell\_depth\_1}: depth of the vertical branch measured along the $z$ axis;
+    \item \texttt{ell\_depth\_2}: depth of the horizontal branch measured along the $z$ axis;
+    \item \texttt{ell\_length\_1}: length of the horizontal branch measured along the $x$ axis;
+    \item \texttt{ell\_length\_2}: length of the vertical branch measured along the $x$ axis;
+    \item \texttt{thickness}: specimen thickness measured along the $y$ axis.
+\end{itemize}
+
+
+\subsection{\texttt{notched\_cylinder}}
+\label{subsec:geometry_notched_cylinder}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\linewidth]{./figs/notched_cylinder.png}
+    \caption{Notched cylinder parametrization}
+    \label{fig:notched_cylinder}
+\end{figure}
+
+As illustrated in Fig.~\ref{fig:notched_cylinder}, the local coordinate system is defined by the axes $x$, $y$, and $z$, where the origin corresponds to the center of the top circular surface of the specimen. The $z$ axis represents the longitudinal direction associated with the cylinder length, while the $x$ and $y$ axes define the transverse directions within the circular cross section. The circumferential notch is positioned along the cylinder axis at mid-length.
+
+
+The notched cylinder geometry is defined by the following parameters:
+
+\begin{itemize}
+    \item \texttt{length}: longitudinal length of the cylinder measured along the $z$ axis;
+    \item \texttt{diameter}: diameter of the circular cross section;
+    \item \texttt{notch\_depth}: radial notch depth;
+    \item \texttt{notch\_width}: axial width of the circumferential notch;
+    \item \texttt{notch\_tip\_radius}: radius at the notch tip.
+\end{itemize}
+
+
+\subsection{\texttt{prism}}
+\label{subsec:geometry_prism}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.7\linewidth]{./figs/prism.png}
+    \caption{Prism parametrization}
+    \label{fig:prism}
+\end{figure}
+
+As illustrated in Fig.~\ref{fig:prism}, the local coordinate system is defined by the axes $x$, $y$, and $z$, where the origin corresponds to the reference corner of the specimen. The $x$ axis represents the longitudinal direction associated with the prism length, the $y$ axis represents the transverse thickness direction, and the $z$ axis represents the vertical depth direction.
+
+The prism geometry is defined by the following parameters:
+
+\begin{itemize}
+    \item \texttt{length}: prism length measured along the $x$ axis;
+    \item \texttt{thickness}: prism thickness measured along the $y$ axis;
+    \item \texttt{depth}: prism depth measured along the $z$ axis.
+\end{itemize}
+
 
 
 
@@ -2181,209 +2391,6 @@ To address these challenges, the database adopts, when feasible, standardized pa
 The parametrization schemes for specimen geometries, reinforcement layouts, and test setups are primarily geometric in nature and define standardized coordinate systems, dimensional descriptors, spatial relationships, and geometric parameters required to represent the physical configuration of specimens and experiments. In contrast, the devices and supports parametrization library may additionally include non-geometrical descriptors and constitutive parameters associated with supports, loading devices, instrumentation systems, sensors, actuators, fixtures, and boundary-condition components.
 
 
-\section{Specimen Geometry Parametrization Library}
-The Geometry Parametrization Library defines the standardized parametric representations used to describe specimen geometries throughout the database. Its primary purpose is to convert heterogeneous geometric descriptions reported in the literature into consistent parameter sets. Each
-geometry type is represented through a predefined set of parameters, coordinate conventions, and dimensional descriptors stored in structured CSV or JSON-compatible formats. The parametrization framework enables consistent interpretation of specimen dimensions across datasets originating
-from different laboratories and experimental programs while minimizing redundancy and facilitating reuse of geometry definitions across multiple specimens and tests. The library is extensible, allowing additional geometry types and parameter definitions to be incorporated as new experimental configurations emerge during the data collection effort. The machine-readable definitions of the geometry parametrizations are additionally provided through the accompanying \texttt{geometry\_library.json} schema file, which formalizes parameter names, units, coordinate conventions, required fields, and validation rules associated with each geometry type. Geometry parameter files may be provided either in CSV format or JSON format.
-
-The geometry parametrization defines the specimen dimensions and associated coordinate system using a standardized right-handed Cartesian reference frame.
-
-
-
-The current library includes: 
-\begin{itemize}
-    \item \hyperref[subsec:geometry_cube]{\texttt{cube}}
-    \item \hyperref[subsec:geometry_cylinder]{\texttt{cylinder}}
-        \item \hyperref[subsec:geometry_dogbone]{\texttt{dogbone}}
-    \item \hyperref[subsec:geometry_double_notched_prism]{\texttt{double\_notched\_prism}}
-    \item \hyperref[subsec:geometry_notched_prism]{\texttt{notched\_prism}}
-    \item \hyperref[subsec:geometry_ell_shape]{\texttt{ell\_shape}}
-    \item \hyperref[subsec:geometry_notched_cylinder]{\texttt{notched\_cylinder}}
-
-    \item \hyperref[subsec:geometry_prism]{\texttt{prism}}
-\end{itemize}
-
-\subsection{\texttt{cube}}
-\label{subsec:geometry_cube}
-
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=0.3\linewidth]{./figs/cube.png}
-    \caption{Cube parametrization}
-    \label{fig:cube}
-\end{figure}
-
-As illustrated in Fig.~\ref{fig:cube}, the local coordinate system is defined by the axes $x$, $y$, and $z$, where the origin corresponds to the reference corner of the specimen. The $x$ direction represents the longitudinal direction of the specimen, the $y$ direction represents the transverse thickness direction, and the $z$ direction represents the vertical depth direction.
-
-The cube geometry is defined by the following parameter:
-
-\begin{itemize}
-    \item \texttt{length}: side length of the cube.
-\end{itemize}
-
-
-\subsection{\texttt{cylinder}}
-\label{subsec:geometry_cylinder}
-
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=0.3\linewidth]{./figs/cylinder.png}
-    \caption{Cylinder parametrization}
-    \label{fig:cylinder}
-\end{figure}
-
-As illustrated in Fig.~\ref{fig:cylinder}, the local coordinate system is defined by the axes $x$, $y$, and $z$, where the origin corresponds to the center of the top circular surface of the specimen. The $z$ axis represents the longitudinal direction associated with the cylinder length, while the $x$ and $y$ axes define the transverse directions within the circular cross section.
-
-The cylinder geometry is defined by the following parameters:
-
-\begin{itemize}
-    \item \texttt{length}: longitudinal length of the cylinder measured along the $z$ axis;
-    \item \texttt{diameter}: diameter of the circular cross section.
-\end{itemize}
-
-
-\subsection{\texttt{double\_notched\_prism}}
-\label{subsec:geometry_double_notched_prism}
-
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=0.6\linewidth]{./figs/double_notched_prism.png}
-    \caption{Doubly notched prism parametrization}
-    \label{fig:double_notched_prism}
-\end{figure}
-
-As illustrated in Fig.~\ref{fig:double_notched_prism}, the local coordinate system is defined by the axes $x$, $y$, and $z$, where the origin is located on the centerline of the specimen. The $x$ axis represents the longitudinal direction associated with the prism length, the $y$ axis represents the transverse thickness direction, and the $z$ axis represents the vertical depth direction. The two notches are positioned anti-symmetrically relative to the specimen centerline through the parameters \texttt{notch\_offset}.
-
-The double notched prism geometry is defined by the following parameters:
-
-\begin{itemize}
-    \item \texttt{length}: prism length measured along the $x$ axis;
-    \item \texttt{thickness}: prism thickness measured along the $y$ axis;
-    \item \texttt{depth}: prism depth measured along the $z$ axis;
-    \item \texttt{notch\_offset}: offset of the first notches relative to the specimen centerline;
-    \item \texttt{notch\_depth}: notch penetration depth measured along the $z$ direction;
-    \item \texttt{notch\_width}: notch opening width;
-    \item \texttt{notch\_tip\_radius}: radius at the notch tip.
-\end{itemize}
-
-
-\subsection{\texttt{dogbone}}
-\label{subsec:geometry_dogbone}
-
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=0.6\linewidth]{./figs/dogbone.png}
-    \caption{Dogbone parametrization}
-    \label{fig:dogbone}
-\end{figure}
-
-As illustrated in Fig.~\ref{fig:dogbone}, the local coordinate system is defined by the axes $x$, $y$, and $z$, where the origin is located on the top side and on the longitudinal axis of symmetry of the specimen. The $z$ axis represents the longitudinal direction associated with the dogbone length, the $y$ axis represents the transverse thickness direction, and the $x$ axis represents the horizontal width direction. The reduced central section of the specimen is defined through the corresponding geometric parameters specified below.
-
-\begin{itemize}
-    \item \texttt{length}: total specimen length measured along the $z$ axis;
-    \item \texttt{width}: maximum specimen width measured along the $x$ axis;
-    \item \texttt{thickness}: specimen thickness measured along the $y$ axis;
-    \item \texttt{dogbone\_central\_length}: length of the reduced central region measured along the $z$ axis;
-    \item \texttt{dogbone\_central\_width}: width of the reduced central region measured along the $x$ axis;
-    \item \texttt{dogbone\_head\_length}: length of each enlarged head region measured along the $z$ axis;
-    \item \texttt{dogbone\_transition\_length}: length of each transition region between the head and central regions measured along the $z$ axis;
-    \item \texttt{dogbone\_transition\_width}: width variation defining the transition from the head width to the central width measured along the $x$ axis.
-\end{itemize}
-
-
-\subsection{\texttt{notched\_prism}}
-\label{subsec:geometry_notched_prism}
-
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=0.6\linewidth]{./figs/notched_prism.png}
-    \caption{Notched prism parametrization}
-    \label{fig:notched_prism}
-\end{figure}
-
-As illustrated in Fig.~\ref{fig:notched_prism}, the local coordinate system is defined by the axes $x$, $y$, and $z$, where the origin corresponds to the reference corner of the specimen. The $x$ axis represents the longitudinal direction associated with the prism length, the $y$ axis represents the transverse thickness direction, and the $z$ axis represents the vertical depth direction. The notch is positioned relative to the specimen centerline through the parameter \texttt{notch\_offset}. \texttt{notch\_offset} can be either positive or negative.
-
-The notched prism geometry is defined by the following parameters:
-
-\begin{itemize}
-    \item \texttt{length}: prism length measured along the $x$ axis;
-    \item \texttt{thickness}: prism thickness measured along the $y$ axis;
-    \item \texttt{depth}: prism depth measured along the $z$ axis;
-    \item \texttt{notch\_offset}: offset of the notch relative to the specimen centerline;
-    \item \texttt{notch\_depth}: notch penetration depth measured along the $z$ direction;
-    \item \texttt{notch\_width}: notch opening width;
-    \item \texttt{notch\_tip\_radius}: radius at the notch tip.
-\end{itemize}
-
-
-\subsection{\texttt{ell\_shape}}
-\label{subsec:geometry_ell_shape}
-
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=0.5\linewidth]{./figs/ell_shape.png}
-    \caption{Ell shape parametrization}
-    \label{fig:ell_shape}
-\end{figure}
-
-As illustrated in Fig.~\ref{fig:ell_shape}, the local coordinate system is defined by the axes $x$, $y$, and $z$, where the origin corresponds to the reference corner of the specimen. The $x$ axis represents the longitudinal direction of the specimen, the $y$ axis represents the transverse thickness direction, and the $z$ axis represents the vertical depth direction. The L-shaped geometry is defined through the corresponding geometric parameters specified in the geometry parametrization library.
-
-The ell-shape geometry is defined by the following parameters:
-
-As illustrated in Fig.~\ref{fig:ell_shape}, the local coordinate system is defined by the axes $x$, $y$, and $z$, where the origin corresponds to the reference corner of the specimen. The $x$ axis represents the longitudinal direction of the specimen, the $y$ axis represents the transverse thickness direction, and the $z$ axis represents the vertical depth direction. The L-shaped geometry is defined through the corresponding geometric parameters specified below.
-
-\begin{itemize}
-    \item \texttt{ell\_depth\_1}: depth of the vertical branch measured along the $z$ axis;
-    \item \texttt{ell\_depth\_2}: depth of the horizontal branch measured along the $z$ axis;
-    \item \texttt{ell\_length\_1}: length of the horizontal branch measured along the $x$ axis;
-    \item \texttt{ell\_length\_2}: length of the vertical branch measured along the $x$ axis;
-    \item \texttt{thickness}: specimen thickness measured along the $y$ axis.
-\end{itemize}
-
-
-\subsection{\texttt{notched\_cylinder}}
-\label{subsec:geometry_notched_cylinder}
-
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=0.6\linewidth]{./figs/notched_cylinder.png}
-    \caption{Notched cylinder parametrization}
-    \label{fig:notched_cylinder}
-\end{figure}
-
-As illustrated in Fig.~\ref{fig:notched_cylinder}, the local coordinate system is defined by the axes $x$, $y$, and $z$, where the origin corresponds to the center of the top circular surface of the specimen. The $z$ axis represents the longitudinal direction associated with the cylinder length, while the $x$ and $y$ axes define the transverse directions within the circular cross section. The circumferential notch is positioned along the cylinder axis at mid-length.
-
-
-The notched cylinder geometry is defined by the following parameters:
-
-\begin{itemize}
-    \item \texttt{length}: longitudinal length of the cylinder measured along the $z$ axis;
-    \item \texttt{diameter}: diameter of the circular cross section;
-    \item \texttt{notch\_depth}: radial notch depth;
-    \item \texttt{notch\_width}: axial width of the circumferential notch;
-    \item \texttt{notch\_tip\_radius}: radius at the notch tip.
-\end{itemize}
-
-
-\subsection{\texttt{prism}}
-\label{subsec:geometry_prism}
-
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=0.7\linewidth]{./figs/prism.png}
-    \caption{Prism parametrization}
-    \label{fig:prism}
-\end{figure}
-
-As illustrated in Fig.~\ref{fig:prism}, the local coordinate system is defined by the axes $x$, $y$, and $z$, where the origin corresponds to the reference corner of the specimen. The $x$ axis represents the longitudinal direction associated with the prism length, the $y$ axis represents the transverse thickness direction, and the $z$ axis represents the vertical depth direction.
-
-The prism geometry is defined by the following parameters:
-
-\begin{itemize}
-    \item \texttt{length}: prism length measured along the $x$ axis;
-    \item \texttt{thickness}: prism thickness measured along the $y$ axis;
-    \item \texttt{depth}: prism depth measured along the $z$ axis.
-\end{itemize}
 
 
 

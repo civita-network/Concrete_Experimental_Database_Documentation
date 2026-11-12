@@ -45,13 +45,65 @@
 %============================================================
 \part{The CIVITA Network}
 %============================================================
-Part I: The CIVITA Network
-    \chapter{Introduction}
-    \chapter{CIVITA Architecture}
+
+\chapter{Introduction}
+Despite several decades of research, computational models for concrete have achieved only limited adoption in engineering practice. This limited translation is not due to a lack of scientific activity. On the contrary, the number of publications related to computational modeling of concrete has increased dramatically. Figure \ref{fig:scopus-concrete-nodeling} shows that Scopus-indexed publications on computational modeling of concrete increased from only a few hundred papers per year in the late 1970s and early 1980s to about 1,500–2,000 papers per year around 2000, then grew rapidly to roughly 7,000–8,000 papers per year by 2012–2015, and accelerated further after 2020, reaching more than 20,000 publications per year in the most recent data.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\linewidth]{./figs/scopus.png}
+    \caption{Growth of Scopus-indexed publications on computational modeling of concrete from the mid-1970s to the mid-2020s.}
+    \label{fig:scopus-concrete-nodeling}
+\end{figure}
+
+However, this growth has not been matched by a comparable increase in practical confidence, standardization, or routine use in engineering design. Significant intellectual and financial resources continue to be invested in the development of new models, refinements of existing formulations, and increasingly complex numerical implementations. Yet, many of these efforts remain incremental and are often not accompanied by rigorous validation, transparent comparison against experimental evidence, or systematic benchmarking against existing, competing approaches.
+
+The central problem is the lack of a broadly accepted framework for assessing whether such models are reliable, predictive, and useful for practical applications. Without curated experimental databases, standardized validation protocols, and objective comparative assessments, the concrete modeling community risks continued growth in publication volume without corresponding progress in engineering adoption. This gap between research productivity and practical impact motivates the need for a coordinated effort focused on calibration, validation, benchmarking, and community-wide standards for concrete computational models.
+
+This has motivated the launch of the \textit{Grand Challenge on the Calibration, Validation, and Benchmarking of Concrete Computational Models}, a community-driven initiative aimed at improving the reliability, transparency, reproducibility, and predictive capability of computational modeling in concrete mechanics.
+
+
+\chapter{CIVITA Architecture}
+CIVITA, the \textit{Computational Infrastructure for Validation, Integration, Testing, and Assessment}, is an open scientific platform designed to support the systematic development, calibration, validation, and assessment of computational models for concrete and cementitious materials. It provides the digital infrastructure for the \textit{Grand Challenge on the Calibration, Validation, and Benchmarking of Concrete Computational Models}.
+
+The long-term vision of CIVITA is to establish a shared scientific environment in which experimental evidence, computational models, parameter sets, simulation results, and model-assessment procedures can be represented through structured and interoperable digital objects. Such an environment is intended to facilitate cumulative model development. Experimental datasets should be reusable across different modeling approaches; calibrated parameter sets should be transferable directly to validation exercises; validation results should provide quantitative information on model predictive capability; and standardized benchmarks should enable comparisons among model formulations, numerical implementations, and successive versions of computational frameworks.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.9\linewidth]{./figs/civita_scientific_architecture.png}
+    \caption{CIVITA architecture. Integration of experimental and computational databases with parameter identification, validation, and benchmarking environments to support reproducible assessment of concrete computational models.}
+    \label{fig:civita-architecture}
+\end{figure}
+
+CIVITA is organized around two complementary databases and three computational assessment environments:
+
+\begin{enumerate}
+    \item The \textbf{Experimental Database} provides structured experimental data together with information describing materials, specimens, geometries, test configurations, loading histories, instrumentation, and measured quantities.
+
+    \item The \textbf{Computational Database} provides a structured repository of computational models, numerical implementations, model configurations, material parameter sets, and simulation results. It establishes the relationships among model formulations, software implementations, and their versions, allowing computational results to be associated unambiguously with the frameworks that produced them.
+
+    \item The \textbf{Parameter Identification} environment supports the calibration of model parameters against selected experimental observations. Calibration procedures and their results are documented to enable reproducibility and subsequent reuse.
+
+    \item The \textbf{Validation} environment supports prediction exercises in which previously calibrated models are assessed against independent experimental data. Its objective is to quantify predictive accuracy and establish the range of applicability of different computational models.
+
+    \item The \textbf{Benchmarking} environment provides standardized computational problems for comparing different versions, implementations, and formulations of computational models. Benchmark specifications and submitted results are preserved to support reproducible comparisons and the progressive assessment of computational frameworks.
+\end{enumerate}
+
+The two databases constitute the principal repositories of scientific evidence and computational knowledge within CIVITA. The Concrete Experimental Database preserves the physical evidence obtained from laboratory investigations, while the Computational Database organizes the models and numerical tools used to interpret and predict that evidence. Their interoperability provides the foundation for the three assessment environments, enabling experimental observations, computational configurations, and simulation results to be exchanged through consistent data structures.
+
+The architecture of CIVITA is model-agnostic. It is intended to accommodate different constitutive theories, discrete and continuum formulations, multiscale approaches, and numerical implementations. A computational framework is identified by the combination of a mathematical model and its implementation in a specific software package. Distinguishing these two elements is essential for separating differences arising from model formulations from those associated with numerical implementations. CIVITA does not prescribe a preferred model. Its purpose is to provide the infrastructure required to evaluate models systematically and to document clearly the conditions under which their predictions are reliable.
+
+A central principle of CIVITA is scientific traceability. Experimental datasets, computational models, software implementations, parameter configurations, calibration procedures, validation exercises, and benchmark results should remain identifiable, versioned, and reproducible. Open contributions are encouraged, while their provenance and review status should remain explicit. Over time, this structure is intended to create a persistent record of computational evidence from which the capabilities and limitations of concrete models can be assessed quantitatively.
+
+More broadly, CIVITA seeks to support a transition toward validation-centered computational engineering. As experimental and computational databases expand and scientific workflows become increasingly automated, including through artificial-intelligence agents, the value of computational models will depend increasingly on the quality of the evidence supporting their predictive capability. CIVITA is conceived as the infrastructure through which that evidence can be collected, connected, interrogated, and progressively strengthened by the research community.
+
+
+
+
+    
     \chapter{Shared Scientific Definitions}
-       \section{Global Geometry Library}
             \subsection{General conventions}
-\section{Specimen Geometry Parametrization Library}
+\section{Global Geometry Parametrization Library}
 The Geometry Parametrization Library defines the standardized parametric representations used to describe specimen geometries throughout the database. Its primary purpose is to convert heterogeneous geometric descriptions reported in the literature into consistent parameter sets. Each
 geometry type is represented through a predefined set of parameters, coordinate conventions, and dimensional descriptors stored in structured CSV or JSON-compatible formats. The parametrization framework enables consistent interpretation of specimen dimensions across datasets originating
 from different laboratories and experimental programs while minimizing redundancy and facilitating reuse of geometry definitions across multiple specimens and tests. The library is extensible, allowing additional geometry types and parameter definitions to be incorporated as new experimental configurations emerge during the data collection effort. The machine-readable definitions of the geometry parametrizations are additionally provided through the accompanying \texttt{geometry\_library.json} schema file, which formalizes parameter names, units, coordinate conventions, required fields, and validation rules associated with each geometry type. Geometry parameter files may be provided either in CSV format or JSON format.
@@ -78,7 +130,7 @@ The current library includes:
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.3\linewidth]{./figs/cube.png}
+    \includegraphics[width=0.3\linewidth]{./figs/geometries/cube.png}
     \caption{Cube parametrization}
     \label{fig:cube}
 \end{figure}
@@ -97,7 +149,7 @@ The cube geometry is defined by the following parameter:
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.3\linewidth]{./figs/cylinder.png}
+    \includegraphics[width=0.3\linewidth]{./figs/geometries/cylinder.png}
     \caption{Cylinder parametrization}
     \label{fig:cylinder}
 \end{figure}
@@ -117,7 +169,7 @@ The cylinder geometry is defined by the following parameters:
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.6\linewidth]{./figs/double_notched_prism.png}
+    \includegraphics[width=0.6\linewidth]{./figs/geometries/double_notched_prism.png}
     \caption{Doubly notched prism parametrization}
     \label{fig:double_notched_prism}
 \end{figure}
@@ -142,7 +194,7 @@ The double notched prism geometry is defined by the following parameters:
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.6\linewidth]{./figs/dogbone.png}
+    \includegraphics[width=0.6\linewidth]{./figs/geometries/dogbone.png}
     \caption{Dogbone parametrization}
     \label{fig:dogbone}
 \end{figure}
@@ -166,7 +218,7 @@ As illustrated in Fig.~\ref{fig:dogbone}, the local coordinate system is defined
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.6\linewidth]{./figs/notched_prism.png}
+    \includegraphics[width=0.6\linewidth]{./figs/geometries/notched_prism.png}
     \caption{Notched prism parametrization}
     \label{fig:notched_prism}
 \end{figure}
@@ -191,7 +243,7 @@ The notched prism geometry is defined by the following parameters:
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.5\linewidth]{./figs/ell_shape.png}
+    \includegraphics[width=0.5\linewidth]{./figs/geometries/ell_shape.png}
     \caption{Ell shape parametrization}
     \label{fig:ell_shape}
 \end{figure}
@@ -216,7 +268,7 @@ As illustrated in Fig.~\ref{fig:ell_shape}, the local coordinate system is defin
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.6\linewidth]{./figs/notched_cylinder.png}
+    \includegraphics[width=0.6\linewidth]{./figs/geometries/notched_cylinder.png}
     \caption{Notched cylinder parametrization}
     \label{fig:notched_cylinder}
 \end{figure}
@@ -240,7 +292,7 @@ The notched cylinder geometry is defined by the following parameters:
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.7\linewidth]{./figs/prism.png}
+    \includegraphics[width=0.7\linewidth]{./figs/geometries/prism.png}
     \caption{Prism parametrization}
     \label{fig:prism}
 \end{figure}
@@ -370,7 +422,7 @@ The database follows the following main principles.
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.9\linewidth]{./figs/database_hierarchy.png}
+    \includegraphics[width=0.9\linewidth]{./figs/reinforcements/database_hierarchy.png}
     \caption{Hierarchical organization of the database showing the relationships between literature sources, material batches, geometries, reinforcement materials, reinforcement components, reinforcement layouts, specimens, tests, devices and supports, loading histories, and experimental data entries.}
     \label{fig:database_hierarchy}
 \end{figure}
@@ -2455,7 +2507,7 @@ Figure~\ref{fig:longitudinal_reinf} illustrates the coordinate conventions and p
 
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=\textwidth]{./figs/longitudinal.png}
+    \includegraphics[width=\textwidth]{./figs/reinforcements/longitudinal.png}
     \caption{Parametrization of longitudinal flexural and tensile reinforcement layers.}
     \label{fig:longitudinal_reinf}
 \end{figure}
@@ -2467,7 +2519,7 @@ Figure~\ref{fig:stirrups_reinf} illustrates the parametrization adopted for stir
 
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=\textwidth]{./figs/stirrups.png}
+    \includegraphics[width=\textwidth]{./figs/reinforcements/stirrups.png}
     \caption{Parametrization of stirrups and ties reinforcement systems.}
     \label{fig:stirrups_reinf}
 \end{figure}
@@ -2484,7 +2536,7 @@ The current parametrization is illustrated in Fig.~\ref{fig:external_reinf}. The
 
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=\textwidth]{./figs/external_reinforcement.png}
+    \includegraphics[width=\textwidth]{./figs/reinforcements/external_reinforcement.png}
     \caption{Parametrization of external reinforcement systems.}
     \label{fig:external_reinf}
 \end{figure}
@@ -2537,7 +2589,7 @@ The \texttt{three\_point\_bending\_test}  parametrization defines the geometry o
 
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.4\textwidth]{./figs/3pbt.png}
+    \includegraphics[width=0.4\textwidth]{./figs/tests/3pbt.png}
     \caption{Parametrization of external reinforcement systems.}
     \label{fig:3pbt}
 \end{figure}
@@ -2554,7 +2606,7 @@ The \texttt{four\_point\_bending\_test} (also applies to \texttt{modulus\_of\_ru
 
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.4\textwidth]{./figs/4pbt.png}
+    \includegraphics[width=0.4\textwidth]{./figs/tests/4pbt.png}
     \caption{Parametrization of the four-point bending test setup.}
     \label{fig:4pbt}
 \end{figure}
@@ -2570,7 +2622,7 @@ The \texttt{axial\_test} parametrization defines the geometry of an axial loadin
 
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.15\textwidth]{./figs/axial_test.png}
+    \includegraphics[width=0.15\textwidth]{./figs/tests/axial_test.png}
     \caption{Parametrization of the axial loading test with eccentricity.}
     \label{fig:axial_test_eccentricity}
 \end{figure}
@@ -2611,7 +2663,7 @@ Additional parameters and more advanced support descriptions may be incorporated
 
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.4\textwidth]{./figs/pad_support.png}
+    \includegraphics[width=0.4\textwidth]{./figs/supports/pad_support.png}
     \caption{Parametrization of deformable pad supports.}
     \label{fig:pad_support}
 \end{figure}
@@ -2643,7 +2695,7 @@ The cylindrical roller support is defined through the following parameters:
 
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.35\textwidth]{./figs/roller_support.png}
+    \includegraphics[width=0.35\textwidth]{./figs/supports/geometries/roller_support.png}
     \caption{Parametrization of cylindrical roller supports.}
     \label{fig:roller_support}
 \end{figure}

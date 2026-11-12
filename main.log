@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.14)  11 NOV 2026 18:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.14)  11 NOV 2026 18:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1771,10 +1771,6 @@ Underfull \hbox (badness 1838) in paragraph at lines 5934--5935
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-05-26>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: A51A91A4E443465DF6A4A0FC3B617514;18114.
  )
@@ -1812,7 +1808,7 @@ m/cmsy8.pfb><C:/Users/GianlucaCusatis/AppData/Local/Programs/MiKTeX/fonts/type1
 Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/
 GianlucaCusatis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
 tt9.pfb>
-Output written on main.pdf (93 pages, 1905625 bytes).
+Output written on main.pdf (93 pages, 1905626 bytes).
 PDF statistics:
  1263 PDF objects out of 1440 (max. 8388607)
  309 named destinations out of 1000 (max. 500000)

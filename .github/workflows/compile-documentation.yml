@@ -1,0 +1,54 @@
+
+name: Compile CIVITA documentation
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '**/*.tex'
+      - '**/*.sty'
+      - '**/*.cls'
+      - 'figs/**'
+      - '.github/workflows/compile-documentation.yml'
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: civita-documentation-pdf
+  cancel-in-progress: false
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out documentation
+        uses: actions/checkout@v4
+
+      - name: Compile LaTeX document
+        uses: xu-cheng/latex-action@v4
+        with:
+          root_file: main.tex
+          texlive_version: '2025'
+          args: '-pdf -file-line-error -halt-on-error -interaction=nonstopmode'
+
+      - name: Verify PDF exists
+        run: test -s main.pdf
+
+      - name: Commit updated PDF
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add -f main.pdf
+
+          if ! git diff --cached --quiet; then
+            git commit -m "docs: regenerate main.pdf [skip ci]"
+            git push origin HEAD:main
+          else
+            echo "PDF unchanged. Nothing to commit."
+          fi
